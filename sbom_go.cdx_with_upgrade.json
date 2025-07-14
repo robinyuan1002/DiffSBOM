@@ -1,0 +1,3248 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:0538274b-9815-4158-9fdf-85c341eeea0a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-13T21:53:36-04:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.28.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f191881d34400142",
+      "type": "file",
+      "name": "cli-go-0.1.16/"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/cache@v1?package-id=b814c6cfce749312",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/go.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v1?package-id=aabb71f3deae219a",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/go.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v1?package-id=f429fbb510195657",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v1?package-id=b354bad37c0552e8",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v2?package-id=9fda61d59f250f82",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/go.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/fsnotify/fsnotify@v1.7.0?package-id=378246f442e44bea",
+      "type": "library",
+      "name": "github.com/fsnotify/fsnotify",
+      "version": "v1.7.0",
+      "cpe": "cpe:2.3:a:fsnotify:fsnotify:v1.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/google/go-cmp@v0.6.0?package-id=12bcad0965b01a41",
+      "type": "library",
+      "name": "github.com/google/go-cmp",
+      "version": "v0.6.0",
+      "cpe": "cpe:2.3:a:google:go-cmp:v0.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/google/go-cmp@v0.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:go_cmp:v0.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hashicorp/hcl@v1.0.0?package-id=965b4ad27671b41e",
+      "type": "library",
+      "name": "github.com/hashicorp/hcl",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/inconshreveable/mousetrap@v1.1.0?package-id=f6300927a9f6b106",
+      "type": "library",
+      "name": "github.com/inconshreveable/mousetrap",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:inconshreveable:mousetrap:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/inconshreveable/mousetrap@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/magiconair/properties@v1.8.7?package-id=66843350392889dc",
+      "type": "library",
+      "name": "github.com/magiconair/properties",
+      "version": "v1.8.7",
+      "cpe": "cpe:2.3:a:magiconair:properties:v1.8.7:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/magiconair/properties@v1.8.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:IeQXZAiQcpL9mgcAe1Nu6cX9LLw6ExEHKjN0VQdvPDY="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-runewidth@v0.0.9?package-id=96ce68ef9e8db2fe",
+      "type": "library",
+      "name": "github.com/mattn/go-runewidth",
+      "version": "v0.0.9",
+      "cpe": "cpe:2.3:a:mattn:go-runewidth:v0.0.9:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-runewidth@v0.0.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_runewidth:v0.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Lm995f3rfxdpd6TSmuVCHVb/QhupuXlYr8sCI/QdE+0="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/mapstructure@v1.5.0?package-id=d7dc97acead2de58",
+      "type": "library",
+      "name": "github.com/mitchellh/mapstructure",
+      "version": "v1.5.0",
+      "cpe": "cpe:2.3:a:mitchellh:mapstructure:v1.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/mapstructure@v1.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/olekukonko/tablewriter@v0.0.5?package-id=b1ef2014854760aa",
+      "type": "library",
+      "name": "github.com/olekukonko/tablewriter",
+      "version": "v0.0.5",
+      "cpe": "cpe:2.3:a:olekukonko:tablewriter:v0.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/olekukonko/tablewriter@v0.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:P2Ga83D34wi1o9J6Wh1mRuqd4mF/x/lgBS7N7AbDhec="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pelletier/go-toml@v2.2.1?package-id=08d56e7fb05237cd#v2",
+      "type": "library",
+      "name": "github.com/pelletier/go-toml/v2",
+      "version": "v2.2.1",
+      "cpe": "cpe:2.3:a:pelletier:go-toml\\/v2:v2.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pelletier/go-toml@v2.2.1#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pelletier:go_toml\\/v2:v2.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9TA9+T8+8CUCO2+WYnDLCgrYi9+omqKXyjDtosvtEhg="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/rogpeppe/go-internal@v1.10.0?package-id=c3e0d026181a0b6e",
+      "type": "library",
+      "name": "github.com/rogpeppe/go-internal",
+      "version": "v1.10.0",
+      "cpe": "cpe:2.3:a:rogpeppe:go-internal:v1.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/rogpeppe/go-internal@v1.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rogpeppe:go_internal:v1.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:TMyTOH3F/DB16zRVcYyreMH6GnZZrwQVAoYjRBZyWFQ="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sagikazarmark/locafero@v0.4.0?package-id=4b1db900fd7b8ded",
+      "type": "library",
+      "name": "github.com/sagikazarmark/locafero",
+      "version": "v0.4.0",
+      "cpe": "cpe:2.3:a:sagikazarmark:locafero:v0.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sagikazarmark/locafero@v0.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:HApY1R9zGo4DBgr7dqsTH/JJxLTTsOt7u6keLGt6kNQ="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sagikazarmark/slog-shim@v0.1.0?package-id=ad1add83f4864492",
+      "type": "library",
+      "name": "github.com/sagikazarmark/slog-shim",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:sagikazarmark:slog-shim:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sagikazarmark/slog-shim@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sagikazarmark:slog_shim:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:diDBnUNK9N/354PgrxMywXnAwEr1QZcOr6gto+ugjYE="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sourcegraph/conc@v0.3.0?package-id=836776c8278abe18",
+      "type": "library",
+      "name": "github.com/sourcegraph/conc",
+      "version": "v0.3.0",
+      "cpe": "cpe:2.3:a:sourcegraph:conc:v0.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sourcegraph/conc@v0.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:OQTbbt6P72L20UqAkXXuLOj79LfEanQ+YQFNpLA9ySo="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/afero@v1.11.0?package-id=f55db4944dda030e",
+      "type": "library",
+      "name": "github.com/spf13/afero",
+      "version": "v1.11.0",
+      "cpe": "cpe:2.3:a:spf13:afero:v1.11.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/afero@v1.11.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:WJQKhtpdm3v2IzqG8VMqrr6Rf3UYpEF239Jy9wNepM8="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cast@v1.6.0?package-id=2bd85f81ca80b15d",
+      "type": "library",
+      "name": "github.com/spf13/cast",
+      "version": "v1.6.0",
+      "cpe": "cpe:2.3:a:spf13:cast:v1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cast@v1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GEiTHELF+vaR5dhz3VqZfFSzZjYbgeKDpBxQVS4GYJ0="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.8.0?package-id=81b06fbcbe87f414",
+      "type": "library",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.8.0",
+      "cpe": "cpe:2.3:a:spf13:cobra:v1.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:7aJaZx1B85qltLMc546zn58BxxfZdR/W22ej9CFoEf0="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=b7053341eda23113",
+      "type": "library",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "cpe": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/viper@v1.18.2?package-id=9ad14adf3921c039",
+      "type": "library",
+      "name": "github.com/spf13/viper",
+      "version": "v1.18.2",
+      "cpe": "cpe:2.3:a:spf13:viper:v1.18.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/viper@v1.18.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:LUXCnvUvSM6FXAsj6nnfc8Q2tp1dIgUfY9Kc8GsSOiQ="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/ssor/bom@v0.0.0-20170718123548-6386211fdfcf?package-id=4c7774dda20febd9",
+      "type": "library",
+      "name": "github.com/ssor/bom",
+      "version": "v0.0.0-20170718123548-6386211fdfcf",
+      "cpe": "cpe:2.3:a:ssor:bom:v0.0.0-20170718123548-6386211fdfcf:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/ssor/bom@v0.0.0-20170718123548-6386211fdfcf",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:pvbZ0lM0XWPBqUKqFU8cmavspvIl9nulOYwdy6IFRRo="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/subosito/gotenv@v1.6.0?package-id=2db166198c302bc1",
+      "type": "library",
+      "name": "github.com/subosito/gotenv",
+      "version": "v1.6.0",
+      "cpe": "cpe:2.3:a:subosito:gotenv:v1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/subosito/gotenv@v1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9NlTDc1FTs4qu0DDq7AEtTPNw6SVm7uBMsUCUjABIf8="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.9.0?package-id=95d116ad2015fed4",
+      "type": "library",
+      "name": "go.uber.org/atomic",
+      "version": "v1.9.0",
+      "purl": "pkg:golang/go.uber.org/atomic@v1.9.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ECmE8Bn/WFTYwEW/bpKD3M8VtR/zQVbavAoalC1PYyE="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.9.0?package-id=259138f6bf9288da",
+      "type": "library",
+      "name": "go.uber.org/multierr",
+      "version": "v1.9.0",
+      "purl": "pkg:golang/go.uber.org/multierr@v1.9.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:7fIwc/ZtS0q++VgcfqFDxSBZVv/Xo49/SYnDFupUwlI="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/exp@v0.0.0-20240416160154-fe59bbe5cc7f?package-id=984a2b7bbaf948f7",
+      "type": "library",
+      "name": "golang.org/x/exp",
+      "version": "v0.0.0-20240416160154-fe59bbe5cc7f",
+      "cpe": "cpe:2.3:a:golang:x\\/exp:v0.0.0-20240416160154-fe59bbe5cc7f:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20240416160154-fe59bbe5cc7f",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:99ci1mjWVBWwJiEKYY6jWa4d2nTQVIEhZIptnrVb1XY="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.24.0?package-id=450ba5eb30997783",
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.24.0",
+      "cpe": "cpe:2.3:a:golang:networking:v0.24.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.24.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:1PcaxkF854Fu3+lvBIx5SYn9wRlBzzcnHZSiaFFAb0w="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.19.0?package-id=2d5e062090be5d09",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.19.0",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.19.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.19.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:q5f1RH2jigJ1MoAWp2KTp3gm5zAGFUTarQZ5U386+4o="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/term@v0.19.0?package-id=a95b838c237518ee",
+      "type": "library",
+      "name": "golang.org/x/term",
+      "version": "v0.19.0",
+      "cpe": "cpe:2.3:a:golang:x\\/term:v0.19.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/term@v0.19.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:+ThwsDv+tYfnJFhF4L8jITxu1tdTWRTZpdsWgEgjL6Q="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.14.0?package-id=c70ce8df32c6f44e",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.14.0",
+      "cpe": "cpe:2.3:a:golang:text:v0.14.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.14.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/golangci/golangci-lint-action@v2?package-id=963c1de3fa384e3a",
+      "type": "library",
+      "name": "golangci/golangci-lint-action",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:golangci\\/golangci-lint-action:golangci\\/golangci-lint-action:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/golangci/golangci-lint-action@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci-lint-action:golangci\\/golangci_lint_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci_lint_action:golangci\\/golangci-lint-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci_lint_action:golangci\\/golangci_lint_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci-lint:golangci\\/golangci-lint-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci-lint:golangci\\/golangci_lint_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci_lint:golangci\\/golangci-lint-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci_lint:golangci\\/golangci_lint_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci:golangci\\/golangci-lint-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golangci\\/golangci:golangci\\/golangci_lint_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/go.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c?package-id=f3606cbd54002165",
+      "type": "library",
+      "name": "gopkg.in/check.v1",
+      "version": "v1.0.0-20201130134442-10cb98267c6c",
+      "purl": "pkg:golang/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Hei/4ADfdWqJk1ZMxUNpqntNwaWcugrBjAiHlqqRiVk="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/ini.v1@v1.67.0?package-id=c8de656d796f58bd",
+      "type": "library",
+      "name": "gopkg.in/ini.v1",
+      "version": "v1.67.0",
+      "purl": "pkg:golang/gopkg.in/ini.v1@v1.67.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Dgnx+6+nfE+IfzjUEISNeydPJh9AXNNsWbGP9KzCsOA="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=716c668b92999095",
+      "type": "library",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/goreleaser/goreleaser-action@v1?package-id=f839949b0cab4bd6",
+      "type": "library",
+      "name": "goreleaser/goreleaser-action",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:goreleaser\\/goreleaser-action:goreleaser\\/goreleaser-action:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/goreleaser/goreleaser-action@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goreleaser\\/goreleaser-action:goreleaser\\/goreleaser_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goreleaser\\/goreleaser_action:goreleaser\\/goreleaser-action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goreleaser\\/goreleaser_action:goreleaser\\/goreleaser_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goreleaser\\/goreleaser:goreleaser\\/goreleaser-action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goreleaser\\/goreleaser:goreleaser\\/goreleaser_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/jaytaylor.com/html2text@v0.0.0-20230321000545-74c2419ad056?package-id=dfc478c910c293f6",
+      "type": "library",
+      "name": "jaytaylor.com/html2text",
+      "version": "v0.0.0-20230321000545-74c2419ad056",
+      "purl": "pkg:golang/jaytaylor.com/html2text@v0.0.0-20230321000545-74c2419ad056",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:6YFJoB+0fUH6X3xU/G2tQqCYg+PkGtnZ5nMR5rpw72g="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/newreleases.io/newreleases@v1.10.0?package-id=26b48459bf54bb11",
+      "type": "library",
+      "name": "newreleases.io/newreleases",
+      "version": "v1.10.0",
+      "purl": "pkg:golang/newreleases.io/newreleases@v1.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ZkWO3z3NL/MyvidYGZ7WbDERoaRZLAfqbIETLq4AQR8="
+        }
+      ]
+    },
+    {
+      "bom-ref": "f018fb796e384236",
+      "type": "file",
+      "name": "/home/cli-go-0.1.16/.github/workflows/go.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5a1283176389472058177dff3fc42fbb725ab341"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4f4286608dc3566758fe6e303bc1ab969c5438b1ad8cc539051f6486333808b0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cc210d8a1a5f5704",
+      "type": "file",
+      "name": "/home/cli-go-0.1.16/.github/workflows/release.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fcd464b62c3308e0de689ae9655a02ba6bf70c9d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "abdffb05a7b2c27e5925ffead470cefe06964f03566b07f89345c8abcfa1bd16"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3fc5a8d3d86e9790",
+      "type": "file",
+      "name": "/home/cli-go-0.1.16/go.mod",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "447c097965a955d5d1561ab0f6cfdb65bcdc4217"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "986bbff8365f610325db4b401d90e1f1b0c1639b3878ae914aae8c9ee9ba4972"
+        }
+      ]
+    }
+  ],
+  "upgrade": {
+    "file_changes": {
+      "old_version": "/home/cli-go-0.1.7",
+      "New file": [
+        "/home/cli-go-0.1.16/newreleases/cmd/matrix.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/matrix_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/rocketchat.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/rocketchat_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_add.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_add_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_get.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_get_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_list.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_list_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_remove.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_remove_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_test.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_update.go",
+        "/home/cli-go-0.1.16/newreleases/cmd/tag_update_test.go"
+      ],
+      "Deleted file": [],
+      "Modified file": [
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/cmd.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/cmd.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/cmd.go",
+            "@@ -42,15 +42,18 @@",
+            " \tprovidersService              providersService",
+            " \tslackChannelsService          slackChannelsService",
+            " \ttelegramChatsService          telegramChatsService",
+            " \tdiscordChannelsService        discordChannelsService",
+            " \thangoutsChatWebhooksService   hangoutsChatWebhooksService",
+            " \tmicrosoftTeamsWebhooksService microsoftTeamsWebhooksService",
+            " \tmattermostWebhooksService     mattermostWebhooksService",
+            "+\trocketchatWebhooksService     rocketchatWebhooksService",
+            "+\tmatrixRoomsService            matrixRoomsService",
+            " \twebhooksService               webhooksService",
+            "+\ttagsService                   tagsService",
+            " }",
+            " ",
+            " type option func(*command)",
+            " ",
+            " func newCommand(opts ...option) (c *command, err error) {",
+            " \tc = &command{",
+            " \t\troot: &cobra.Command{",
+            "@@ -101,17 +104,26 @@",
+            " \t}",
+            " \tif err := c.initMicrosoftTeamsCmd(); err != nil {",
+            " \t\treturn nil, err",
+            " \t}",
+            " \tif err := c.initMattermostCmd(); err != nil {",
+            " \t\treturn nil, err",
+            " \t}",
+            "+\tif err := c.initRocketchatCmd(); err != nil {",
+            "+\t\treturn nil, err",
+            "+\t}",
+            "+\tif err := c.initMatrixCmd(); err != nil {",
+            "+\t\treturn nil, err",
+            "+\t}",
+            " \tif err := c.initWebhookCmd(); err != nil {",
+            " \t\treturn nil, err",
+            " \t}",
+            "+\tif err := c.initTagCmd(); err != nil {",
+            "+\t\treturn nil, err",
+            "+\t}",
+            " ",
+            " \tc.initConfigureCmd()",
+            " \tif err := c.initGetAuthKeyCmd(); err != nil {",
+            " \t\treturn nil, err",
+            " \t}",
+            " \tif err := c.initAuthCmd(); err != nil {",
+            " \t\treturn nil, err",
+            "@@ -121,15 +133,15 @@",
+            " }",
+            " ",
+            " func (c *command) Execute() (err error) {",
+            " \treturn c.root.Execute()",
+            " }",
+            " ",
+            " // Execute parses command line arguments and runs appropriate functions.",
+            "-func Execute() (err error) {",
+            "+func Execute() error {",
+            " \tc, err := newCommand()",
+            " \tif err != nil {",
+            " \t\treturn err",
+            " \t}",
+            " \treturn c.Execute()",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/cmd_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/cmd_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/cmd_test.go",
+            "@@ -4,28 +4,28 @@",
+            " // license that can be found in the LICENSE file.",
+            " ",
+            " package cmd_test",
+            " ",
+            " import (",
+            " \t\"errors\"",
+            " \t\"fmt\"",
+            "-\t\"io/ioutil\"",
+            " \t\"os\"",
+            "+\t\"regexp\"",
+            " \t\"testing\"",
+            " \t\"time\"",
+            " ",
+            " \t\"newreleases.io/cmd/newreleases/cmd\"",
+            " )",
+            " ",
+            " var homeDir string",
+            " ",
+            " var errTest = errors.New(\"test error\")",
+            " ",
+            " func TestMain(m *testing.M) {",
+            "-\tdir, err := ioutil.TempDir(\"\", \"newreleases-cmd-\")",
+            "+\tdir, err := os.MkdirTemp(\"\", \"newreleases-cmd-\")",
+            " \tif err != nil {",
+            " \t\tfmt.Fprintln(os.Stderr, err)",
+            " \t\tos.Exit(1)",
+            " \t}",
+            " \tdefer os.RemoveAll(dir)",
+            " ",
+            " \thomeDir = dir",
+            "@@ -48,7 +48,13 @@",
+            " ",
+            " \ttm, err := time.Parse(time.RFC3339Nano, s)",
+            " \tif err != nil {",
+            " \t\tt.Fatal(err)",
+            " \t}",
+            " \treturn tm",
+            " }",
+            "+",
+            "+var spaceRe = regexp.MustCompile(`\\s+`)",
+            "+",
+            "+func trimSpace(s string) string {",
+            "+\treturn spaceRe.ReplaceAllString(s, \" \")",
+            "+}"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/configure_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/configure_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/configure_test.go",
+            "@@ -4,15 +4,14 @@",
+            " // license that can be found in the LICENSE file.",
+            " ",
+            " package cmd_test",
+            " ",
+            " import (",
+            " \t\"bytes\"",
+            " \t\"fmt\"",
+            "-\t\"io/ioutil\"",
+            " \t\"os\"",
+            " \t\"path/filepath\"",
+            " \t\"strings\"",
+            " \t\"testing\"",
+            " ",
+            " \t\"newreleases.io/cmd/newreleases/cmd\"",
+            " )",
+            "@@ -63,19 +62,15 @@",
+            " \t\t\twantOutputFunc: func(filename string) string {",
+            " \t\t\t\treturn fmt.Sprintf(\"Auth Key: Configuration saved to: %s.\\n\", filename)",
+            " \t\t\t},",
+            " \t\t\twantData: \"auth-key: 9ty6an1z8jwn5ne0sg5a9b4qOpc6rpymcw71\\n\",",
+            " \t\t},",
+            " \t} {",
+            " \t\tt.Run(tc.name, func(t *testing.T) {",
+            "-\t\t\tdir, err := ioutil.TempDir(\"\", \"newreleases-cmd-\")",
+            "-\t\t\tif err != nil {",
+            "-\t\t\t\tt.Fatal(err)",
+            "-\t\t\t}",
+            "-\t\t\tdefer os.RemoveAll(dir)",
+            "+\t\t\tdir := t.TempDir()",
+            " ",
+            " \t\t\tcfgFile := filepath.Join(dir, \".newreleases.yaml\")",
+            " \t\t\tif !tc.newConfig {",
+            " \t\t\t\tf, err := os.Create(cfgFile)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\tt.Fatal(err)",
+            " \t\t\t\t}",
+            "@@ -118,37 +113,33 @@",
+            " ",
+            " \t\t\tgotErrorOutput := errorOutputBuf.String()",
+            " \t\t\tif gotErrorOutput != tc.wantErrorOutput {",
+            " \t\t\t\tt.Errorf(\"got error output %q, want %q\", gotErrorOutput, tc.wantErrorOutput)",
+            " \t\t\t}",
+            " ",
+            " \t\t\tif tc.wantData != \"\" {",
+            "-\t\t\t\tgotData, err := ioutil.ReadFile(cfgFile)",
+            "+\t\t\t\tgotData, err := os.ReadFile(cfgFile)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\tt.Fatal(err)",
+            " \t\t\t\t}",
+            " \t\t\t\tif string(gotData) != tc.wantData {",
+            " \t\t\t\t\tt.Errorf(\"got config file data %q, want %q\", string(gotData), tc.wantData)",
+            " \t\t\t\t}",
+            " \t\t\t} else {",
+            "-\t\t\t\tgotData, _ := ioutil.ReadFile(cfgFile)",
+            "+\t\t\t\tgotData, _ := os.ReadFile(cfgFile)",
+            " \t\t\t\tif string(gotData) != \"\" {",
+            " \t\t\t\t\tt.Errorf(\"got config file data %q, but it should not be\", string(gotData))",
+            " \t\t\t\t}",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }",
+            " ",
+            " func TestConfigureCmd_overwrite(t *testing.T) {",
+            "-\tdir, err := ioutil.TempDir(\"\", \"newreleases-cmd-\")",
+            "-\tif err != nil {",
+            "-\t\tt.Fatal(err)",
+            "-\t}",
+            "-\tdefer os.RemoveAll(dir)",
+            "+\tdir := t.TempDir()",
+            " ",
+            " \tcfgFile := filepath.Join(dir, \".newreleases.yaml\")",
+            " \tf, err := os.Create(cfgFile)",
+            " \tif err != nil {",
+            " \t\tt.Fatal(err)",
+            " \t}",
+            " \tif err := f.Close(); err != nil {",
+            "@@ -171,15 +162,15 @@",
+            " ",
+            " \t\tgotOutput := outputBuf.String()",
+            " \t\twantOutput := fmt.Sprintf(\"Auth Key: Configuration saved to: %s.\\n\", cfgFile)",
+            " \t\tif gotOutput != wantOutput {",
+            " \t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t}",
+            " ",
+            "-\t\tgotData, err := ioutil.ReadFile(cfgFile)",
+            "+\t\tgotData, err := os.ReadFile(cfgFile)",
+            " \t\tif err != nil {",
+            " \t\t\tt.Fatal(err)",
+            " \t\t}",
+            " \t\twantData := fmt.Sprintf(\"auth-key: %s\\n\", authKey)",
+            " \t\tif string(gotData) != wantData {",
+            " \t\t\tt.Errorf(\"got config file data %q, want %q\", string(gotData), wantData)",
+            " \t\t}"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/export_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/export_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/export_test.go",
+            "@@ -18,15 +18,18 @@",
+            " \tReleasesService               = releasesService",
+            " \tSlackChannelsService          = slackChannelsService",
+            " \tTelegramChatsService          = telegramChatsService",
+            " \tDiscordChannelsService        = discordChannelsService",
+            " \tHangoutsChatWebhooksService   = hangoutsChatWebhooksService",
+            " \tMicrosoftTeamsWebhooksService = microsoftTeamsWebhooksService",
+            " \tMattermostWebhooksService     = mattermostWebhooksService",
+            "+\tRocketchatWebhooksService     = rocketchatWebhooksService",
+            "+\tMatrixRoomsService            = matrixRoomsService",
+            " \tWebhooksService               = webhooksService",
+            "+\tTagsService                   = tagsService",
+            " )",
+            " ",
+            " var (",
+            " \tNewCommand = newCommand",
+            " )",
+            " ",
+            " func WithCfgFile(f string) func(c *Command) {",
+            "@@ -133,12 +136,30 @@",
+            " ",
+            " func WithMattermostWebhooksService(s MattermostWebhooksService) func(c *Command) {",
+            " \treturn func(c *Command) {",
+            " \t\tc.mattermostWebhooksService = s",
+            " \t}",
+            " }",
+            " ",
+            "+func WithRocketchatWebhooksService(s RocketchatWebhooksService) func(c *Command) {",
+            "+\treturn func(c *Command) {",
+            "+\t\tc.rocketchatWebhooksService = s",
+            "+\t}",
+            "+}",
+            "+",
+            "+func WithMatrixRoomsService(s MatrixRoomsService) func(c *Command) {",
+            "+\treturn func(c *Command) {",
+            "+\t\tc.matrixRoomsService = s",
+            "+\t}",
+            "+}",
+            "+",
+            " func WithWebhooksService(s WebhooksService) func(c *Command) {",
+            " \treturn func(c *Command) {",
+            " \t\tc.webhooksService = s",
+            " \t}",
+            " }",
+            "+",
+            "+func WithTagsService(s TagsService) func(c *Command) {",
+            "+\treturn func(c *Command) {",
+            "+\t\tc.tagsService = s",
+            "+\t}",
+            "+}"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/get_auth_key_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/get_auth_key_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/get_auth_key_test.go",
+            "@@ -5,15 +5,14 @@",
+            " ",
+            " package cmd_test",
+            " ",
+            " import (",
+            " \t\"bytes\"",
+            " \t\"context\"",
+            " \t\"fmt\"",
+            "-\t\"io/ioutil\"",
+            " \t\"os\"",
+            " \t\"path/filepath\"",
+            " \t\"strings\"",
+            " \t\"testing\"",
+            " ",
+            " \t\"newreleases.io/cmd/newreleases/cmd\"",
+            " \t\"newreleases.io/newreleases\"",
+            "@@ -139,19 +138,15 @@",
+            " \t\t\t\treturn fmt.Sprintf(\"Sign in to NewReleases with your credentials\\nto get available API keys and store them in local configuration file.\\nEmail: Password: \\n\\n    NAME        AUTHORIZED NETWORKS \\n1   Master                            \\n2   Secondary                         \\n\\nSelect auth key (enter row number): Select auth key (enter row number): Using auth key: Master.\\nConfiguration saved to: %s.\\n\", filename)",
+            " \t\t\t},",
+            " \t\t\twantErrorOutput: \"Invalid row number.\\n\",",
+            " \t\t\twantData:        \"auth-key: z8jwn5ne0sg5a9b4qOpc9ty6an16rpymcw71\\ntimeout: 30s\\n\",",
+            " \t\t},",
+            " \t} {",
+            " \t\tt.Run(tc.name, func(t *testing.T) {",
+            "-\t\t\tdir, err := ioutil.TempDir(\"\", \"newreleases-cmd-\")",
+            "-\t\t\tif err != nil {",
+            "-\t\t\t\tt.Fatal(err)",
+            "-\t\t\t}",
+            "-\t\t\tdefer os.RemoveAll(dir)",
+            "+\t\t\tdir := t.TempDir()",
+            " ",
+            " \t\t\tcfgFile := filepath.Join(dir, \".newreleases.yaml\")",
+            " \t\t\tif !tc.newConfig {",
+            " \t\t\t\tf, err := os.Create(cfgFile)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\tt.Fatal(err)",
+            " \t\t\t\t}",
+            "@@ -196,23 +191,23 @@",
+            " ",
+            " \t\t\tgotErrorOutput := errorOutputBuf.String()",
+            " \t\t\tif gotErrorOutput != tc.wantErrorOutput {",
+            " \t\t\t\tt.Errorf(\"got error output %q, want %q\", gotErrorOutput, tc.wantErrorOutput)",
+            " \t\t\t}",
+            " ",
+            " \t\t\tif tc.wantData != \"\" {",
+            "-\t\t\t\tgotData, err := ioutil.ReadFile(cfgFile)",
+            "+\t\t\t\tgotData, err := os.ReadFile(cfgFile)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\tt.Fatal(err)",
+            " \t\t\t\t}",
+            " \t\t\t\tif string(gotData) != tc.wantData {",
+            " \t\t\t\t\tt.Errorf(\"got config file data %q, want %q\", string(gotData), tc.wantData)",
+            " \t\t\t\t}",
+            " \t\t\t} else {",
+            "-\t\t\t\tgotData, _ := ioutil.ReadFile(cfgFile)",
+            "+\t\t\t\tgotData, _ := os.ReadFile(cfgFile)",
+            " \t\t\t\tif string(gotData) != \"\" {",
+            " \t\t\t\t\tt.Errorf(\"got config file data %q, but it should not be\", string(gotData))",
+            " \t\t\t\t}",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project.go",
+            "@@ -4,14 +4,15 @@",
+            " // license that can be found in the LICENSE file.",
+            " ",
+            " package cmd",
+            " ",
+            " import (",
+            " \t\"context\"",
+            " \t\"strings\"",
+            "+\t\"unicode\"",
+            " ",
+            " \t\"github.com/spf13/cobra\"",
+            " \t\"newreleases.io/newreleases\"",
+            " )",
+            " ",
+            " func (c *command) initProjectCmd() (err error) {",
+            " \tcmd := &cobra.Command{",
+            "@@ -73,19 +74,23 @@",
+            " \t\thasEmailNotification  bool",
+            " \t\thasSlack              bool",
+            " \t\thasTelegram           bool",
+            " \t\thasDiscord            bool",
+            " \t\thasHangoutsChat       bool",
+            " \t\thasMicrosoftTeams     bool",
+            " \t\thasMattermost         bool",
+            "+\t\thasRocketchat         bool",
+            "+\t\thasMatrix             bool",
+            " \t\thasWebhook            bool",
+            " \t\thasExclusions         bool",
+            " \t\thasInclusions         bool",
+            " \t\thasExcludePrereleases bool",
+            " \t\thasExcludeUpdated     bool",
+            "+\t\thasNote               bool",
+            "+\t\thasTag                bool",
+            " \t)",
+            " \tfor _, p := range projects {",
+            " \t\tif p.EmailNotification != newreleases.EmailNotificationNone && p.EmailNotification != \"\" {",
+            " \t\t\thasEmailNotification = true",
+            " \t\t}",
+            " \t\tif len(p.SlackIDs) > 0 {",
+            " \t\t\thasSlack = true",
+            "@@ -101,14 +106,20 @@",
+            " \t\t}",
+            " \t\tif len(p.MSTeamsWebhookIDs) > 0 {",
+            " \t\t\thasMicrosoftTeams = true",
+            " \t\t}",
+            " \t\tif len(p.MattermostWebhookIDs) > 0 {",
+            " \t\t\thasMattermost = true",
+            " \t\t}",
+            "+\t\tif len(p.RocketchatWebhookIDs) > 0 {",
+            "+\t\t\thasRocketchat = true",
+            "+\t\t}",
+            "+\t\tif len(p.MatrixRoomIDs) > 0 {",
+            "+\t\t\thasMatrix = true",
+            "+\t\t}",
+            " \t\tif len(p.WebhookIDs) > 0 {",
+            " \t\t\thasWebhook = true",
+            " \t\t}",
+            " \t\tif len(p.Exclusions) > 0 {",
+            " \t\t\tfor _, e := range p.Exclusions {",
+            " \t\t\t\tif e.Inverse {",
+            " \t\t\t\t\thasInclusions = true",
+            "@@ -119,14 +130,20 @@",
+            " \t\t}",
+            " \t\tif p.ExcludePrereleases {",
+            " \t\t\thasExcludePrereleases = true",
+            " \t\t}",
+            " \t\tif p.ExcludeUpdated {",
+            " \t\t\thasExcludeUpdated = true",
+            " \t\t}",
+            "+\t\tif len(p.Note) > 0 {",
+            "+\t\t\thasNote = true",
+            "+\t\t}",
+            "+\t\tif len(p.TagIDs) > 0 {",
+            "+\t\t\thasTag = true",
+            "+\t\t}",
+            " \t}",
+            " ",
+            " \theader := []string{",
+            " \t\t\"ID\",",
+            " \t\t\"Name\",",
+            " \t\t\"Provider\",",
+            " \t}",
+            "@@ -147,14 +164,20 @@",
+            " \t}",
+            " \tif hasMicrosoftTeams {",
+            " \t\theader = append(header, \"Microsoft Teams\")",
+            " \t}",
+            " \tif hasMattermost {",
+            " \t\theader = append(header, \"Mattermost\")",
+            " \t}",
+            "+\tif hasRocketchat {",
+            "+\t\theader = append(header, \"Rocket.Chat\")",
+            "+\t}",
+            "+\tif hasMatrix {",
+            "+\t\theader = append(header, \"Matrix\")",
+            "+\t}",
+            " \tif hasWebhook {",
+            " \t\theader = append(header, \"Webhook\")",
+            " \t}",
+            " \tif hasExclusions {",
+            " \t\theader = append(header, \"Regex Exclude\")",
+            " \t}",
+            " \tif hasInclusions {",
+            "@@ -162,14 +185,20 @@",
+            " \t}",
+            " \tif hasExcludePrereleases {",
+            " \t\theader = append(header, \"Exclude Pre-Releases\")",
+            " \t}",
+            " \tif hasExcludeUpdated {",
+            " \t\theader = append(header, \"Exclude Updated\")",
+            " \t}",
+            "+\tif hasNote {",
+            "+\t\theader = append(header, \"Note\")",
+            "+\t}",
+            "+\tif hasTag {",
+            "+\t\theader = append(header, \"Tags\")",
+            "+\t}",
+            " \ttable.SetHeader(header)",
+            " \tfor _, p := range projects {",
+            " \t\tr := []string{p.ID, p.Name, p.Provider}",
+            " \t\tif hasEmailNotification {",
+            " \t\t\tr = append(r, string(p.EmailNotification))",
+            " \t\t}",
+            " \t\tif hasSlack {",
+            "@@ -186,14 +215,20 @@",
+            " \t\t}",
+            " \t\tif hasMicrosoftTeams {",
+            " \t\t\tr = append(r, strings.Join(p.MSTeamsWebhookIDs, \", \"))",
+            " \t\t}",
+            " \t\tif hasMattermost {",
+            " \t\t\tr = append(r, strings.Join(p.MattermostWebhookIDs, \", \"))",
+            " \t\t}",
+            "+\t\tif hasRocketchat {",
+            "+\t\t\tr = append(r, strings.Join(p.RocketchatWebhookIDs, \", \"))",
+            "+\t\t}",
+            "+\t\tif hasMatrix {",
+            "+\t\t\tr = append(r, strings.Join(p.MatrixRoomIDs, \", \"))",
+            "+\t\t}",
+            " \t\tif hasWebhook {",
+            " \t\t\tr = append(r, strings.Join(p.WebhookIDs, \", \"))",
+            " \t\t}",
+            " \t\tif hasExclusions {",
+            " \t\t\tvar l []string",
+            " \t\t\tfor _, e := range p.Exclusions {",
+            " \t\t\t\tif !e.Inverse {",
+            "@@ -213,14 +248,24 @@",
+            " \t\t}",
+            " \t\tif hasExcludePrereleases {",
+            " \t\t\tr = append(r, yesNo(p.ExcludePrereleases))",
+            " \t\t}",
+            " \t\tif hasExcludeUpdated {",
+            " \t\t\tr = append(r, yesNo(p.ExcludeUpdated))",
+            " \t\t}",
+            "+\t\tif hasNote {",
+            "+\t\t\tnote := p.Note",
+            "+\t\t\tif len(note) > 10 {",
+            "+\t\t\t\tnote = strings.TrimRightFunc(strings.TrimSpace(note[:10]), unicode.IsSymbol) + \"...\"",
+            "+\t\t\t}",
+            "+\t\t\tr = append(r, note)",
+            "+\t\t}",
+            "+\t\tif hasTag {",
+            "+\t\t\tr = append(r, strings.Join(p.TagIDs, \", \"))",
+            "+\t\t}",
+            " \t\ttable.Append(r)",
+            " \t}",
+            " \ttable.Render()",
+            " }",
+            " ",
+            " func printProject(cmd *cobra.Command, p *newreleases.Project) {",
+            " \ttable := newTable(cmd.OutOrStdout())",
+            "@@ -244,14 +289,20 @@",
+            " \t}",
+            " \tif len(p.MSTeamsWebhookIDs) > 0 {",
+            " \t\ttable.Append([]string{\"Microsoft Teams:\", strings.Join(p.MSTeamsWebhookIDs, \", \")})",
+            " \t}",
+            " \tif len(p.MattermostWebhookIDs) > 0 {",
+            " \t\ttable.Append([]string{\"Mattermost:\", strings.Join(p.MattermostWebhookIDs, \", \")})",
+            " \t}",
+            "+\tif len(p.RocketchatWebhookIDs) > 0 {",
+            "+\t\ttable.Append([]string{\"Rocket.Chat:\", strings.Join(p.RocketchatWebhookIDs, \", \")})",
+            "+\t}",
+            "+\tif len(p.MatrixRoomIDs) > 0 {",
+            "+\t\ttable.Append([]string{\"Matrix:\", strings.Join(p.MatrixRoomIDs, \", \")})",
+            "+\t}",
+            " \tif len(p.WebhookIDs) > 0 {",
+            " \t\ttable.Append([]string{\"Webhooks:\", strings.Join(p.WebhookIDs, \", \")})",
+            " \t}",
+            " \tvar excluded, excludedInverse []string",
+            " \tfor _, e := range p.Exclusions {",
+            " \t\tif e.Inverse {",
+            " \t\t\texcludedInverse = append(excludedInverse, e.Value)",
+            "@@ -267,9 +318,15 @@",
+            " \t}",
+            " \tif p.ExcludePrereleases {",
+            " \t\ttable.Append([]string{\"Exclude Pre-Releases:\", \"yes\"})",
+            " \t}",
+            " \tif p.ExcludeUpdated {",
+            " \t\ttable.Append([]string{\"Exclude Updated:\", \"yes\"})",
+            " \t}",
+            "+\tif len(p.Note) > 0 {",
+            "+\t\ttable.Append([]string{\"Note:\", p.Note})",
+            "+\t}",
+            "+\tif len(p.TagIDs) > 0 {",
+            "+\t\ttable.Append([]string{\"Tags:\", strings.Join(p.TagIDs, \", \")})",
+            "+\t}",
+            " \ttable.Render()",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_add.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_add.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_add.go",
+            "@@ -17,18 +17,22 @@",
+            " \t\toptionNameEmail              = \"email\"",
+            " \t\toptionNameSlack              = \"slack\"",
+            " \t\toptionNameTelegram           = \"telegram\"",
+            " \t\toptionNameDiscord            = \"discord\"",
+            " \t\toptionNameHangoutsChat       = \"hangouts-chat\"",
+            " \t\toptionNameMicrosoftTeams     = \"microsoft-teams\"",
+            " \t\toptionNameMattermost         = \"mattermost\"",
+            "+\t\toptionNameRocketchat         = \"rocketchat\"",
+            "+\t\toptionNameMatrix             = \"matrix\"",
+            " \t\toptionNameWebhook            = \"webhook\"",
+            " \t\toptionNameExclusions         = \"regex-exclude\"",
+            " \t\toptionNameExcludePrereleases = \"exclude-prereleases\"",
+            " \t\toptionNameExcludeUpdated     = \"exclude-updated\"",
+            "+\t\toptionNameNote               = \"note\"",
+            "+\t\toptionNameTag                = \"tag\"",
+            " \t)",
+            " ",
+            " \tcmd := &cobra.Command{",
+            " \t\tUse:   \"add PROVIDER PROJECT_NAME\",",
+            " \t\tShort: \"Add a project to track\",",
+            " \t\tRunE: func(cmd *cobra.Command, args []string) (err error) {",
+            " \t\t\tctx, cancel := newClientContext(c.config)",
+            "@@ -69,14 +73,22 @@",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " \t\t\to.MattermostWebhookIDs, err = flags.GetStringArray(optionNameMattermost)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            "+\t\t\to.RocketchatWebhookIDs, err = flags.GetStringArray(optionNameRocketchat)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\to.MatrixRoomIDs, err = flags.GetStringArray(optionNameMatrix)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            " \t\t\to.WebhookIDs, err = flags.GetStringArray(optionNameWebhook)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " \t\t\texclusions, err := flags.GetStringArray(optionNameExclusions)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            "@@ -102,14 +114,25 @@",
+            " \t\t\tif flags.Changed(optionNameExcludeUpdated) {",
+            " \t\t\t\texcludeUpdated, err := flags.GetBool(optionNameExcludeUpdated)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\treturn err",
+            " \t\t\t\t}",
+            " \t\t\t\to.ExcludeUpdated = &excludeUpdated",
+            " \t\t\t}",
+            "+\t\t\to.TagIDs, err = flags.GetStringArray(optionNameTag)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\tif flags.Changed(optionNameNote) {",
+            "+\t\t\t\tnote, err := flags.GetString(optionNameNote)",
+            "+\t\t\t\tif err != nil {",
+            "+\t\t\t\t\treturn err",
+            "+\t\t\t\t}",
+            "+\t\t\t\to.Note = &note",
+            "+\t\t\t}",
+            " ",
+            " \t\t\tproject, err := c.projectsService.Add(ctx, args[0], args[1], o)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " ",
+            " \t\t\tprintProject(cmd, project)",
+            "@@ -126,15 +149,19 @@",
+            " \tcmd.Flags().String(optionNameEmail, \"none\", \"frequency of email notifications: instant, hourly, daily, weekly, none\")",
+            " \tcmd.Flags().StringArray(optionNameSlack, nil, \"Slack channel ID\")",
+            " \tcmd.Flags().StringArray(optionNameTelegram, nil, \"Telegram chat ID\")",
+            " \tcmd.Flags().StringArray(optionNameDiscord, nil, \"Discord channel ID\")",
+            " \tcmd.Flags().StringArray(optionNameHangoutsChat, nil, \"Hangouts Chat webhook ID\")",
+            " \tcmd.Flags().StringArray(optionNameMicrosoftTeams, nil, \"Microsoft Teams webhook ID\")",
+            " \tcmd.Flags().StringArray(optionNameMattermost, nil, \"Mattermost webhook ID\")",
+            "+\tcmd.Flags().StringArray(optionNameRocketchat, nil, \"Rocket.Chat webhook ID\")",
+            "+\tcmd.Flags().StringArray(optionNameMatrix, nil, \"Matrix room ID\")",
+            " \tcmd.Flags().StringArray(optionNameWebhook, nil, \"Webhook ID\")",
+            " \tcmd.Flags().StringArray(optionNameExclusions, nil, \"Regex version exclusion, suffix with \\\"-inverse\\\" for inclusion\")",
+            " \tcmd.Flags().Bool(optionNameExcludePrereleases, false, \"exclude pre-releases\")",
+            " \tcmd.Flags().Bool(optionNameExcludeUpdated, false, \"exclude updated\")",
+            "+\tcmd.Flags().StringArray(optionNameTag, nil, \"Tag ID\")",
+            "+\tcmd.Flags().String(optionNameNote, \"\", \"Note\")",
+            " ",
+            " \tprojectCmd.AddCommand(cmd)",
+            " \treturn addClientFlags(cmd)",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_add_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_add_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_add_test.go",
+            "@@ -34,22 +34,26 @@",
+            " \t\t\t\t\"--slack\", \"mdsbe60td5gwgzetyksdfeyxt4\",",
+            " \t\t\t\t\"--telegram\", \"sdfeyxt4mdsbe60td5gwgzetyk\",",
+            " \t\t\t\t\"--discord\", \"4mdsbe60td5gwgzetyksdfeyxt\",",
+            " \t\t\t\t\"--discord\", \"zext4mdsbe6tyksdfey0td5gwg\",",
+            " \t\t\t\t\"--hangouts-chat\", \"etyksdfeyxt4mdsbe60td5gwgz\",",
+            " \t\t\t\t\"--microsoft-teams\", \"0td5gwgzextbe6tyksdfey4mds\",",
+            " \t\t\t\t\"--mattermost\", \"wgxtzed4yksd5dfeymsbe6t0tg\",",
+            "+\t\t\t\t\"--rocketchat\", \"5dfeymsbe6t0tgwgxtzed4yksd\",",
+            "+\t\t\t\t\"--matrix\", \"wgxtzesbe6t05dfed4yksdmytg\",",
+            " \t\t\t\t\"--webhook\", \"tbe6tyksdfey4md0td5gwgzexs\",",
+            " \t\t\t\t\"--regex-exclude\", `^0\\.1`,",
+            " \t\t\t\t\"--regex-exclude\", `^0\\.3-inverse`,",
+            " \t\t\t\t\"--exclude-prereleases\",",
+            " \t\t\t\t\"--exclude-updated\",",
+            "+\t\t\t\t\"--note\", \"Some note\",",
+            "+\t\t\t\t\"--tag\", \"33f1db7254b9\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil),",
+            "-\t\t\twantOutput:      \"ID:                      new                                                      \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nEmail:                   weekly                                                   \\nSlack:                   mdsbe60td5gwgzetyksdfeyxt4                               \\nTelegram:                sdfeyxt4mdsbe60td5gwgzetyk                               \\nDiscord:                 4mdsbe60td5gwgzetyksdfeyxt, zext4mdsbe6tyksdfey0td5gwg   \\nHangouts Chat:           etyksdfeyxt4mdsbe60td5gwgz                               \\nMicrosoft Teams:         0td5gwgzextbe6tyksdfey4mds                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nWebhooks:                tbe6tyksdfey4md0td5gwgzexs                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      new                                                      \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nEmail:                   weekly                                                   \\nSlack:                   mdsbe60td5gwgzetyksdfeyxt4                               \\nTelegram:                sdfeyxt4mdsbe60td5gwgzetyk                               \\nDiscord:                 4mdsbe60td5gwgzetyksdfeyxt, zext4mdsbe6tyksdfey0td5gwg   \\nHangouts Chat:           etyksdfeyxt4mdsbe60td5gwgz                               \\nMicrosoft Teams:         0td5gwgzextbe6tyksdfey4mds                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd                               \\nMatrix:             wgxtzesbe6t05dfed4yksdmytg                               \\nWebhooks:                tbe6tyksdfey4md0td5gwgzexs                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\nNote:                    Some note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"error\",",
+            " \t\t\targs:            []string{\"github\", \"golang/go\"},",
+            " \t\t\tprojectsService: newMockProjectsService(1, errTest),",
+            " \t\t\twantError:       errTest,",
+            " \t\t},",
+            "@@ -60,14 +64,15 @@",
+            " \t\t\t\tcmd.WithArgs(append([]string{\"project\", \"add\"}, tc.args...)...),",
+            " \t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t}",
+            " ",
+            "-\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_get_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_get_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_get_test.go",
+            "@@ -29,15 +29,15 @@",
+            " \t\t\tname:            \"minimal project\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{minimalProject}),",
+            " \t\t\twantOutput:      \"ID:         mdsbe60td5gwgzetyksdfeyxt4   \\nName:       golang/go                    \\nProvider:   github                       \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"full project\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   daily                        \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   daily                        \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd   \\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\nNote:                    Initial note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"error\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, errTest),",
+            " \t\t\twantError:       errTest,",
+            " \t\t},",
+            " \t} {",
+            "@@ -48,30 +48,32 @@",
+            " \t\t\t\t\tcmd.WithArgs(\"project\", \"get\", \"mdsbe60td5gwgzetyksdfeyxt4\"),",
+            " \t\t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t\t}",
+            " ",
+            "-\t\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t\t}",
+            " \t\t\t})",
+            " \t\t\tt.Run(\"by name\", func(t *testing.T) {",
+            " \t\t\t\tvar outputBuf bytes.Buffer",
+            " \t\t\t\tif err := newCommand(t,",
+            " \t\t\t\t\tcmd.WithArgs(\"project\", \"get\", \"github\", \"golang/go\"),",
+            " \t\t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t\t}",
+            " ",
+            "-\t\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t\t}",
+            " \t\t\t})",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_list.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_list.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_list.go",
+            "@@ -10,14 +10,15 @@",
+            " \t\"newreleases.io/newreleases\"",
+            " )",
+            " ",
+            " func (c *command) initProjectListCmd(projectCmd *cobra.Command) (err error) {",
+            " \tvar (",
+            " \t\toptionNamePage     = \"page\"",
+            " \t\toptionNameProvider = \"provider\"",
+            "+\t\toptionNameTagID    = \"tag\"",
+            " \t\toptionNameOrder    = \"order\"",
+            " \t)",
+            " ",
+            " \tcmd := &cobra.Command{",
+            " \t\tUse:   \"list\",",
+            " \t\tShort: \"Get tracked projects\",",
+            " \t\tRunE: func(cmd *cobra.Command, args []string) (err error) {",
+            "@@ -29,22 +30,27 @@",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " \t\t\tprovider, err := flags.GetString(optionNameProvider)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            "+\t\t\ttagID, err := flags.GetString(optionNameTagID)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            " \t\t\torder, err := flags.GetString(optionNameOrder)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " ",
+            " \t\t\to := newreleases.ProjectListOptions{",
+            " \t\t\t\tPage:     page,",
+            " \t\t\t\tProvider: provider,",
+            "+\t\t\t\tTagID:    tagID,",
+            " \t\t\t}",
+            " \t\t\tif order != \"\" {",
+            " \t\t\t\to.Order = newreleases.ProjectListOrder(order)",
+            " \t\t\t}",
+            " ",
+            " \t\t\tprojects, lastPage, err := c.projectsService.List(ctx, o)",
+            " \t\t\tif err != nil {",
+            "@@ -75,11 +81,12 @@",
+            " \t\t\treturn c.setProjectsService(cmd, args)",
+            " \t\t},",
+            " \t}",
+            " ",
+            " \tcmd.Flags().IntP(optionNamePage, \"p\", 1, \"page number\")",
+            " \tcmd.Flags().String(optionNameProvider, \"\", \"filter by provider\")",
+            " \tcmd.Flags().String(optionNameOrder, \"\", \"sort projects: updated, added, name; default updated\")",
+            "+\tcmd.Flags().String(optionNameTagID, \"\", \"filter by tag ID\")",
+            " ",
+            " \tprojectCmd.AddCommand(cmd)",
+            " \treturn addClientFlags(cmd)",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_list_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_list_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_list_test.go",
+            "@@ -73,17 +73,27 @@",
+            " \t\t\t\t{ID: \"gwgzetyksdfeyxt4mdsbe60td5\", Name: \"vue\", Provider: \"npm\"},",
+            " \t\t\t\t{ID: \"mdsbe60td5gwgzetyksdfeyxt4\", Name: \"golang/go\", Provider: \"github\"},",
+            " \t\t\t\t{ID: \"ksdfeyxt4mdsbe60td5gwgzety\", Name: \"newreleases/cli-go\", Provider: \"github\"},",
+            " \t\t\t}),",
+            " \t\t\twantOutput: \"ID                           NAME                 PROVIDER \\ngwgzetyksdfeyxt4mdsbe60td5   vue                  npm        \\nksdfeyxt4mdsbe60td5gwgzety   newreleases/cli-go   github     \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go            github     \\n\",",
+            " \t\t},",
+            " \t\t{",
+            "+\t\t\tname: \"tag id\",",
+            "+\t\t\targs: []string{\"--tag\", \"123456\"},",
+            "+\t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{",
+            "+\t\t\t\t{ID: \"gwgzetyksdfeyxt4mdsbe60td5\", Name: \"vue\", Provider: \"npm\", TagIDs: []string{\"123456\"}},",
+            "+\t\t\t\t{ID: \"mdsbe60td5gwgzetyksdfeyxt4\", Name: \"golang/go\", Provider: \"github\", TagIDs: []string{\"123456\", \"345678\"}},",
+            "+\t\t\t\t{ID: \"ksdfeyxt4mdsbe60td5gwgzety\", Name: \"newreleases/cli-go\", Provider: \"github\"},",
+            "+\t\t\t}),",
+            "+\t\t\twantOutput: \"ID                           NAME                 PROVIDER  TAGS\\ngwgzetyksdfeyxt4mdsbe60td5   vue                  npm    123456        \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go            github     123456, 345678      \\n\",",
+            "+\t\t},",
+            "+\t\t{",
+            " \t\t\tname:            \"full project\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID                           NAME        PROVIDER   EMAIL   SLACK                        TELEGRAM                     DISCORD                      HANGOUTS CHAT                MICROSOFT TEAMS              MATTERMOST                   WEBHOOK                      REGEX EXCLUDE   REGEX EXCLUDE INVERSE   EXCLUDE PRE-RELEASES   EXCLUDE UPDATED \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go   github     daily   zetyksdfeymdsbe60td5gwgxt4   sbe60td5gwgxtzetyksdfeymd4   tyksdfeymsbegxtzed460td5gw   yksdfeymsbe6t0td5gzed4wgxt   gwgxtzed4yksdfeymsbe6t0td5   wgxtzed4yksd5dfeymsbe6t0tg   e6t0td5ykgwgxtzed4eymsbsdf   ^0\\\\.1           ^0\\\\.3                   yes                    yes               \\n\",",
+            "+\t\t\twantOutput:      \"ID                           NAME        PROVIDER   EMAIL   SLACK                        TELEGRAM                     DISCORD                      HANGOUTS CHAT                MICROSOFT TEAMS              MATTERMOST                   ROCKET CHAT          MATRIX                  WEBHOOK                      REGEX EXCLUDE   REGEX EXCLUDE INVERSE   EXCLUDE PRE-RELEASES   EXCLUDE UPDATED   NOTE            TAGS         \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go   github     daily   zetyksdfeymdsbe60td5gwgxt4   sbe60td5gwgxtzetyksdfeymd4   tyksdfeymsbegxtzed460td5gw   yksdfeymsbe6t0td5gzed4wgxt   gwgxtzed4yksdfeymsbe6t0td5   wgxtzed4yksd5dfeymsbe6t0tg   5dfeymsbe6t0tgwgxtzed4yksd   4yksd5e6twgxtzdfeymsbed0tg   e6t0td5ykgwgxtzed4eymsbsdf   ^0\\\\.1           ^0\\\\.3                   yes                    yes               Initial no...   33f1db7254b9   \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"error\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, errTest),",
+            " \t\t\twantError:       errTest,",
+            " \t\t},",
+            " \t} {",
+            "@@ -93,14 +103,15 @@",
+            " \t\t\t\tcmd.WithArgs(append([]string{\"project\", \"list\"}, tc.args...)...),",
+            " \t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t}",
+            " ",
+            "-\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_search_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_search_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_search_test.go",
+            "@@ -45,15 +45,15 @@",
+            " \t\t\t}),",
+            " \t\t\twantOutput: \"ID                           NAME                 PROVIDER \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go            github     \\nksdfeyxt4mdsbe60td5gwgzety   newreleases/cli-go   github     \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"full project\",",
+            " \t\t\targs:            []string{\"golang\"},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID                           NAME        PROVIDER   EMAIL   SLACK                        TELEGRAM                     DISCORD                      HANGOUTS CHAT                MICROSOFT TEAMS              MATTERMOST                   WEBHOOK                      REGEX EXCLUDE   REGEX EXCLUDE INVERSE   EXCLUDE PRE-RELEASES   EXCLUDE UPDATED \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go   github     daily   zetyksdfeymdsbe60td5gwgxt4   sbe60td5gwgxtzetyksdfeymd4   tyksdfeymsbegxtzed460td5gw   yksdfeymsbe6t0td5gzed4wgxt   gwgxtzed4yksdfeymsbe6t0td5   wgxtzed4yksd5dfeymsbe6t0tg   e6t0td5ykgwgxtzed4eymsbsdf   ^0\\\\.1           ^0\\\\.3                   yes                    yes               \\n\",",
+            "+\t\t\twantOutput:      \"ID                           NAME        PROVIDER   EMAIL   SLACK                        TELEGRAM                     DISCORD                      HANGOUTS CHAT                MICROSOFT TEAMS              MATTERMOST                   ROCKET CHAT       MATRIX                  WEBHOOK                      REGEX EXCLUDE   REGEX EXCLUDE INVERSE   EXCLUDE PRE-RELEASES   EXCLUDE UPDATED   NOTE           TAGS         \\nmdsbe60td5gwgzetyksdfeyxt4   golang/go   github     daily   zetyksdfeymdsbe60td5gwgxt4   sbe60td5gwgxtzetyksdfeymd4   tyksdfeymsbegxtzed460td5gw   yksdfeymsbe6t0td5gzed4wgxt   gwgxtzed4yksdfeymsbe6t0td5   wgxtzed4yksd5dfeymsbe6t0tg   5dfeymsbe6t0tgwgxtzed4yksd   4yksd5e6twgxtzdfeymsbed0tg   e6t0td5ykgwgxtzed4eymsbsdf   ^0\\\\.1           ^0\\\\.3                   yes                    yes               Initial no...   33f1db7254b9   \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"error\",",
+            " \t\t\targs:            []string{\"golang\"},",
+            " \t\t\tprojectsService: newMockProjectsService(1, errTest),",
+            " \t\t\twantError:       errTest,",
+            " \t\t},",
+            "@@ -64,14 +64,15 @@",
+            " \t\t\t\tcmd.WithArgs(append([]string{\"project\", \"search\"}, tc.args...)...),",
+            " \t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t}",
+            " ",
+            "-\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_test.go",
+            "@@ -25,21 +25,25 @@",
+            " \t\tEmailNotification:      newreleases.EmailNotificationDaily,",
+            " \t\tSlackIDs:               []string{\"zetyksdfeymdsbe60td5gwgxt4\"},",
+            " \t\tTelegramChatIDs:        []string{\"sbe60td5gwgxtzetyksdfeymd4\"},",
+            " \t\tDiscordIDs:             []string{\"tyksdfeymsbegxtzed460td5gw\"},",
+            " \t\tHangoutsChatWebhookIDs: []string{\"yksdfeymsbe6t0td5gzed4wgxt\"},",
+            " \t\tMSTeamsWebhookIDs:      []string{\"gwgxtzed4yksdfeymsbe6t0td5\"},",
+            " \t\tMattermostWebhookIDs:   []string{\"wgxtzed4yksd5dfeymsbe6t0tg\"},",
+            "+\t\tRocketchatWebhookIDs:   []string{\"5dfeymsbe6t0tgwgxtzed4yksd\"},",
+            "+\t\tMatrixRoomIDs:          []string{\"4yksd5e6twgxtzdfeymsbed0tg\"},",
+            " \t\tWebhookIDs:             []string{\"e6t0td5ykgwgxtzed4eymsbsdf\"},",
+            " \t\tExclusions: []newreleases.Exclusion{",
+            " \t\t\t{Value: `^0\\.1`},",
+            " \t\t\t{Value: `^0\\.3`, Inverse: true},",
+            " \t\t},",
+            " \t\tExcludePrereleases: true,",
+            " \t\tExcludeUpdated:     true,",
+            "+\t\tNote:               \"Initial note\",",
+            "+\t\tTagIDs:             []string{\"33f1db7254b9\"},",
+            " \t}",
+            " )",
+            " ",
+            " type mockProjectsService struct {",
+            " \tpages    [][]newreleases.Project",
+            " \tlastPage int",
+            " \terr      error",
+            "@@ -55,17 +59,28 @@",
+            " \t}",
+            " \tif o.Provider != \"\" {",
+            " \t\tfor _, p := range s.pages[o.Page-1] {",
+            " \t\t\tif p.Provider == o.Provider {",
+            " \t\t\t\tprojects = append(projects, p)",
+            " \t\t\t}",
+            " \t\t}",
+            "+\t} else if o.TagID != \"\" {",
+            "+\t\tfor _, page := range s.pages {",
+            "+\t\t\tfor _, p := range page {",
+            "+\t\t\t\tfor _, tag := range p.TagIDs {",
+            "+\t\t\t\t\tif tag == o.TagID {",
+            "+\t\t\t\t\t\tprojects = append(projects, p)",
+            "+\t\t\t\t\t}",
+            "+\t\t\t\t}",
+            "+\t\t\t}",
+            "+\t\t}",
+            " \t} else {",
+            " \t\tprojects = s.pages[o.Page-1]",
+            " \t}",
+            "+",
+            " \tswitch o.Order {",
+            " \tcase newreleases.ProjectListOrderName:",
+            " \t\tsort.SliceStable(projects, func(i, j int) (less bool) {",
+            " \t\t\treturn projects[i].Name+projects[i].Provider < projects[j].Name+projects[j].Provider",
+            " \t\t})",
+            " \tcase newreleases.ProjectListOrderAdded:",
+            " \t\tsort.SliceStable(projects, func(i, j int) (less bool) {",
+            "@@ -134,26 +149,38 @@",
+            " \t}",
+            " \tif o.MSTeamsWebhookIDs != nil {",
+            " \t\tproject.MSTeamsWebhookIDs = o.MSTeamsWebhookIDs",
+            " \t}",
+            " \tif o.MattermostWebhookIDs != nil {",
+            " \t\tproject.MattermostWebhookIDs = o.MattermostWebhookIDs",
+            " \t}",
+            "+\tif o.RocketchatWebhookIDs != nil {",
+            "+\t\tproject.RocketchatWebhookIDs = o.RocketchatWebhookIDs",
+            "+\t}",
+            "+\tif o.MatrixRoomIDs != nil {",
+            "+\t\tproject.MatrixRoomIDs = o.MatrixRoomIDs",
+            "+\t}",
+            " \tif o.WebhookIDs != nil {",
+            " \t\tproject.WebhookIDs = o.WebhookIDs",
+            " \t}",
+            " \tif o.Exclusions != nil {",
+            " \t\tproject.Exclusions = o.Exclusions",
+            " \t}",
+            " \tif o.ExcludePrereleases != nil {",
+            " \t\tproject.ExcludePrereleases = *o.ExcludePrereleases",
+            " \t}",
+            " \tif o.ExcludeUpdated != nil {",
+            " \t\tproject.ExcludeUpdated = *o.ExcludeUpdated",
+            " \t}",
+            "+\tif o.Note != nil {",
+            "+\t\tproject.Note = *o.Note",
+            "+\t}",
+            "+\tif o.TagIDs != nil {",
+            "+\t\tproject.TagIDs = o.TagIDs",
+            "+\t}",
+            " \treturn project, s.err",
+            " }",
+            " ",
+            " func (s mockProjectsService) UpdateByID(ctx context.Context, id string, o *newreleases.ProjectOptions) (project *newreleases.Project, err error) {",
+            " \tif len(s.pages) == 0 || len(s.pages[0]) == 0 {",
+            " \t\treturn nil, s.err",
+            " \t}",
+            "@@ -175,26 +202,38 @@",
+            " \t}",
+            " \tif o.MSTeamsWebhookIDs != nil {",
+            " \t\tproject.MSTeamsWebhookIDs = o.MSTeamsWebhookIDs",
+            " \t}",
+            " \tif o.MattermostWebhookIDs != nil {",
+            " \t\tproject.MattermostWebhookIDs = o.MattermostWebhookIDs",
+            " \t}",
+            "+\tif o.RocketchatWebhookIDs != nil {",
+            "+\t\tproject.RocketchatWebhookIDs = o.RocketchatWebhookIDs",
+            "+\t}",
+            "+\tif o.MatrixRoomIDs != nil {",
+            "+\t\tproject.MatrixRoomIDs = o.MatrixRoomIDs",
+            "+\t}",
+            " \tif o.WebhookIDs != nil {",
+            " \t\tproject.WebhookIDs = o.WebhookIDs",
+            " \t}",
+            " \tif o.Exclusions != nil {",
+            " \t\tproject.Exclusions = o.Exclusions",
+            " \t}",
+            " \tif o.ExcludePrereleases != nil {",
+            " \t\tproject.ExcludePrereleases = *o.ExcludePrereleases",
+            " \t}",
+            " \tif o.ExcludeUpdated != nil {",
+            " \t\tproject.ExcludeUpdated = *o.ExcludeUpdated",
+            " \t}",
+            "+\tif o.Note != nil {",
+            "+\t\tproject.Note = *o.Note",
+            "+\t}",
+            "+\tif o.TagIDs != nil {",
+            "+\t\tproject.TagIDs = o.TagIDs",
+            "+\t}",
+            " \treturn project, s.err",
+            " }",
+            " ",
+            " func (s mockProjectsService) UpdateByName(ctx context.Context, provider, name string, o *newreleases.ProjectOptions) (project *newreleases.Project, err error) {",
+            " \tif len(s.pages) == 0 || len(s.pages[0]) == 0 {",
+            " \t\treturn nil, s.err",
+            " \t}",
+            "@@ -216,26 +255,38 @@",
+            " \t}",
+            " \tif o.MSTeamsWebhookIDs != nil {",
+            " \t\tproject.MSTeamsWebhookIDs = o.MSTeamsWebhookIDs",
+            " \t}",
+            " \tif o.MattermostWebhookIDs != nil {",
+            " \t\tproject.MattermostWebhookIDs = o.MattermostWebhookIDs",
+            " \t}",
+            "+\tif o.RocketchatWebhookIDs != nil {",
+            "+\t\tproject.RocketchatWebhookIDs = o.RocketchatWebhookIDs",
+            "+\t}",
+            "+\tif o.MatrixRoomIDs != nil {",
+            "+\t\tproject.MatrixRoomIDs = o.MatrixRoomIDs",
+            "+\t}",
+            " \tif o.WebhookIDs != nil {",
+            " \t\tproject.WebhookIDs = o.WebhookIDs",
+            " \t}",
+            " \tif o.Exclusions != nil {",
+            " \t\tproject.Exclusions = o.Exclusions",
+            " \t}",
+            " \tif o.ExcludePrereleases != nil {",
+            " \t\tproject.ExcludePrereleases = *o.ExcludePrereleases",
+            " \t}",
+            " \tif o.ExcludeUpdated != nil {",
+            " \t\tproject.ExcludeUpdated = *o.ExcludeUpdated",
+            " \t}",
+            "+\tif o.Note != nil {",
+            "+\t\tproject.Note = *o.Note",
+            "+\t}",
+            "+\tif o.TagIDs != nil {",
+            "+\t\tproject.TagIDs = o.TagIDs",
+            "+\t}",
+            " \treturn project, s.err",
+            " }",
+            " ",
+            " func (s mockProjectsService) DeleteByID(ctx context.Context, id string) (err error) {",
+            " \treturn s.err",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_update.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_update.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_update.go",
+            "@@ -23,20 +23,27 @@",
+            " \t\toptionNameDiscordRemove        = \"discord-remove\"",
+            " \t\toptionNameHangoutsChat         = \"hangouts-chat\"",
+            " \t\toptionNameHangoutsChatRemove   = \"hangouts-chat-remove\"",
+            " \t\toptionNameMicrosoftTeams       = \"microsoft-teams\"",
+            " \t\toptionNameMicrosoftTeamsRemove = \"microsoft-teams-remove\"",
+            " \t\toptionNameMattermost           = \"mattermost\"",
+            " \t\toptionNameMattermostRemove     = \"mattermost-remove\"",
+            "+\t\toptionNameRocketchat           = \"rocketchat\"",
+            "+\t\toptionNameRocketchatRemove     = \"rocketchat-remove\"",
+            "+\t\toptionNameMatrix               = \"matrix\"",
+            "+\t\toptionNameMatrixRemove         = \"matrix-remove\"",
+            " \t\toptionNameWebhook              = \"webhook\"",
+            " \t\toptionNameWebhookRemove        = \"webhook-remove\"",
+            " \t\toptionNameExclusions           = \"regex-exclude\"",
+            " \t\toptionNameExclusionsRemove     = \"regex-exclude-remove\"",
+            " \t\toptionNameExcludePrereleases   = \"exclude-prereleases\"",
+            " \t\toptionNameExcludeUpdated       = \"exclude-updated\"",
+            "+\t\toptionNameNote                 = \"note\"",
+            "+\t\toptionNameTag                  = \"tag\"",
+            "+\t\toptionNameTagRemove            = \"tag-remove\"",
+            " \t)",
+            " ",
+            " \tcmd := &cobra.Command{",
+            " \t\tUse:   \"update [PROVIDER PROJECT_NAME] | [PROJECT_ID]\",",
+            " \t\tShort: \"Update a tracked project\",",
+            " \t\tRunE: func(cmd *cobra.Command, args []string) (err error) {",
+            " \t\t\tctx, cancel := newClientContext(c.config)",
+            "@@ -139,14 +146,44 @@",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\treturn err",
+            " \t\t\t\t}",
+            " \t\t\t\tif len(mattermostWebhookIDs) > 0 {",
+            " \t\t\t\t\to.MattermostWebhookIDs = mattermostWebhookIDs",
+            " \t\t\t\t}",
+            " \t\t\t}",
+            "+\t\t\trocketchatRemove, err := flags.GetBool(optionNameRocketchatRemove)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\tif rocketchatRemove {",
+            "+\t\t\t\to.RocketchatWebhookIDs = make([]string, 0)",
+            "+\t\t\t} else {",
+            "+\t\t\t\trocketchatWebhookIDs, err := flags.GetStringArray(optionNameRocketchat)",
+            "+\t\t\t\tif err != nil {",
+            "+\t\t\t\t\treturn err",
+            "+\t\t\t\t}",
+            "+\t\t\t\tif len(rocketchatWebhookIDs) > 0 {",
+            "+\t\t\t\t\to.RocketchatWebhookIDs = rocketchatWebhookIDs",
+            "+\t\t\t\t}",
+            "+\t\t\t}",
+            "+\t\t\tmatrixRemove, err := flags.GetBool(optionNameMatrixRemove)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\tif matrixRemove {",
+            "+\t\t\t\to.MatrixRoomIDs = make([]string, 0)",
+            "+\t\t\t} else {",
+            "+\t\t\t\tmatrixRoomIDs, err := flags.GetStringArray(optionNameMatrix)",
+            "+\t\t\t\tif err != nil {",
+            "+\t\t\t\t\treturn err",
+            "+\t\t\t\t}",
+            "+\t\t\t\tif len(matrixRoomIDs) > 0 {",
+            "+\t\t\t\t\to.MatrixRoomIDs = matrixRoomIDs",
+            "+\t\t\t\t}",
+            "+\t\t\t}",
+            " \t\t\twebhookRemove, err := flags.GetBool(optionNameWebhookRemove)",
+            " \t\t\tif err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " \t\t\tif webhookRemove {",
+            " \t\t\t\to.WebhookIDs = make([]string, 0)",
+            " \t\t\t} else {",
+            "@@ -192,14 +229,38 @@",
+            " \t\t\t\texcludeUpdated, err := flags.GetBool(optionNameExcludeUpdated)",
+            " \t\t\t\tif err != nil {",
+            " \t\t\t\t\treturn err",
+            " \t\t\t\t}",
+            " \t\t\t\to.ExcludeUpdated = &excludeUpdated",
+            " \t\t\t}",
+            " ",
+            "+\t\t\ttagRemove, err := flags.GetBool(optionNameTagRemove)",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\tif tagRemove {",
+            "+\t\t\t\to.TagIDs = make([]string, 0)",
+            "+\t\t\t} else {",
+            "+\t\t\t\ttagIDs, err := flags.GetStringArray(optionNameTag)",
+            "+\t\t\t\tif err != nil {",
+            "+\t\t\t\t\treturn err",
+            "+\t\t\t\t}",
+            "+\t\t\t\tif len(tagIDs) > 0 {",
+            "+\t\t\t\t\to.TagIDs = tagIDs",
+            "+\t\t\t\t}",
+            "+\t\t\t}",
+            "+",
+            "+\t\t\tif flags.Changed(optionNameNote) {",
+            "+\t\t\t\tnote, err := flags.GetString(optionNameNote)",
+            "+\t\t\t\tif err != nil {",
+            "+\t\t\t\t\treturn err",
+            "+\t\t\t\t}",
+            "+\t\t\t\to.Note = &note",
+            "+\t\t\t}",
+            "+",
+            " \t\t\tvar project *newreleases.Project",
+            " \t\t\tswitch len(args) {",
+            " \t\t\tcase 1:",
+            " \t\t\t\tproject, err = c.projectsService.UpdateByID(ctx, args[0], o)",
+            " \t\t\tcase 2:",
+            " \t\t\t\tproject, err = c.projectsService.UpdateByName(ctx, args[0], args[1], o)",
+            " \t\t\tdefault:",
+            "@@ -221,30 +282,37 @@",
+            " \t\t\tif err := addClientConfigOptions(cmd, c.config); err != nil {",
+            " \t\t\t\treturn err",
+            " \t\t\t}",
+            " \t\t\treturn c.setProjectsService(cmd, args)",
+            " \t\t},",
+            " \t}",
+            " ",
+            "-\tcmd.Flags().String(optionNameEmail, \"none\", \"frequency of email notifications: instant, hourly, daily, weekly, none\")",
+            "+\tcmd.Flags().String(optionNameEmail, \"\", \"frequency of email notifications: instant, hourly, daily, weekly, none\")",
+            " \tcmd.Flags().StringArray(optionNameSlack, nil, \"Slack channel ID\")",
+            " \tcmd.Flags().Bool(optionNameSlackRemove, false, \"remove Slack notifications\")",
+            " \tcmd.Flags().StringArray(optionNameTelegram, nil, \"Telegram chat ID\")",
+            " \tcmd.Flags().Bool(optionNameTelegramRemove, false, \"remove Telegram notifications\")",
+            " \tcmd.Flags().StringArray(optionNameDiscord, nil, \"Discord channel ID\")",
+            " \tcmd.Flags().Bool(optionNameDiscordRemove, false, \"remove Discord notifications\")",
+            " \tcmd.Flags().StringArray(optionNameHangoutsChat, nil, \"Hangouts Chat webhook ID\")",
+            " \tcmd.Flags().Bool(optionNameHangoutsChatRemove, false, \"remove Hangouts Chat notifications\")",
+            " \tcmd.Flags().StringArray(optionNameMicrosoftTeams, nil, \"Microsoft Teams webhook ID\")",
+            " \tcmd.Flags().Bool(optionNameMicrosoftTeamsRemove, false, \"remove Microsoft Teams notifications\")",
+            " \tcmd.Flags().StringArray(optionNameMattermost, nil, \"Mattermost webhook ID\")",
+            " \tcmd.Flags().Bool(optionNameMattermostRemove, false, \"remove Mattermost notifications\")",
+            "+\tcmd.Flags().StringArray(optionNameRocketchat, nil, \"Rocket.Chat webhook ID\")",
+            "+\tcmd.Flags().Bool(optionNameRocketchatRemove, false, \"remove Rocket.Chat notifications\")",
+            "+\tcmd.Flags().StringArray(optionNameMatrix, nil, \"Matrix room ID\")",
+            "+\tcmd.Flags().Bool(optionNameMatrixRemove, false, \"remove Matrix notifications\")",
+            " \tcmd.Flags().StringArray(optionNameWebhook, nil, \"Webhook ID\")",
+            " \tcmd.Flags().Bool(optionNameWebhookRemove, false, \"remove Webhook notifications\")",
+            " \tcmd.Flags().StringArray(optionNameExclusions, nil, \"Regex version exclusion, suffix with \\\"-inverse\\\" for inclusion\")",
+            " \tcmd.Flags().Bool(optionNameExclusionsRemove, false, \"remove Regex version exclusions\")",
+            " \tcmd.Flags().Bool(optionNameExcludePrereleases, false, \"exclude pre-releases\")",
+            " \tcmd.Flags().Bool(optionNameExcludeUpdated, false, \"exclude updated\")",
+            "+\tcmd.Flags().StringArray(optionNameTag, nil, \"Tag ID\")",
+            "+\tcmd.Flags().Bool(optionNameTagRemove, false, \"remove Tags\")",
+            "+\tcmd.Flags().String(optionNameNote, \"\", \"Note\")",
+            " ",
+            " \tprojectCmd.AddCommand(cmd)",
+            " \treturn addClientFlags(cmd)",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/project_update_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/project_update_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/project_update_test.go",
+            "@@ -36,65 +36,85 @@",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--email\", \"weekly\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{minimalProject}),",
+            " \t\t\twantOutput:      \"ID:         mdsbe60td5gwgzetyksdfeyxt4   \\nName:       golang/go                    \\nProvider:   github                       \\nEmail:      weekly                       \\n\",",
+            " \t\t},",
+            " \t\t{",
+            "+\t\t\tname: \"set note\",",
+            "+\t\t\targs: []string{",
+            "+\t\t\t\t\"--note\", \"Some note\",",
+            "+\t\t\t},",
+            "+\t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{minimalProject}),",
+            "+\t\t\twantOutput:      \"ID:         mdsbe60td5gwgzetyksdfeyxt4   \\nName:       golang/go                    \\nProvider:   github                       \\nNote:       Some note                    \\n\",",
+            "+\t\t},",
+            "+\t\t{",
+            "+\t\t\tname: \"remove note\",",
+            "+\t\t\targs: []string{",
+            "+\t\t\t\t\"--note\", \"\",",
+            "+\t\t\t},",
+            "+\t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   daily                       \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd   \\n\\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated: yes                          \\nTags:                    33f1db7254b9                 \\n\",",
+            "+\t\t},",
+            "+\t\t{",
+            " \t\t\tname: \"update email\",",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--email\", \"weekly\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   weekly                       \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   weekly                       \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd   \\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\n\\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\nNote:                    Initial note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname: \"update slack\",",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--slack\", \"ymdsbe60td5gwgxt4zetyksdfe\",",
+            " \t\t\t\t\"--slack\", \"gwgxt4zetyksdfeymdsbe60td5\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4                               \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nSlack:                   ymdsbe60td5gwgxt4zetyksdfe, gwgxt4zetyksdfeymdsbe60td5   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4                               \\nDiscord:                 tyksdfeymsbegxtzed460td5gw                               \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt                               \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4                               \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nEmail:                   daily                       \\nSlack:                   ymdsbe60td5gwgxt4zetyksdfe, gwgxt4zetyksdfeymdsbe60td5   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4                               \\nDiscord:                 tyksdfeymsbegxtzed460td5gw                               \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt                               \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd                               \\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\n\\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\nNote:                    Initial note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname: \"remove slack\",",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--slack-remove\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   daily                       \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd   \\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\n\\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Pre-Releases:    yes                          \\nExclude Updated:         yes                          \\nNote:                    Initial note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname: \"include prereleases\",",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--exclude-prereleases=false\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{fullProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Updated:         yes                          \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4   \\nName:                    golang/go                    \\nProvider:                github                       \\nEmail:                   daily                       \\nSlack:                   zetyksdfeymdsbe60td5gwgxt4   \\nTelegram:                sbe60td5gwgxtzetyksdfeymd4   \\nDiscord:                 tyksdfeymsbegxtzed460td5gw   \\nHangouts Chat:           yksdfeymsbe6t0td5gzed4wgxt   \\nMicrosoft Teams:         gwgxtzed4yksdfeymsbe6t0td5   \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg   \\nRocket.Chat:             5dfeymsbe6t0tgwgxtzed4yksd   \\nMatrix:             4yksd5e6twgxtzdfeymsbed0tg   \\n\\nWebhooks:                e6t0td5ykgwgxtzed4eymsbsdf   \\nRegex Exclude:           ^0\\\\.1                        \\nRegex Exclude Inverse:   ^0\\\\.3                        \\nExclude Updated:         yes                          \\nNote:                    Initial note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname: \"update all\",",
+            " \t\t\targs: []string{",
+            " \t\t\t\t\"--email\", \"weekly\",",
+            " \t\t\t\t\"--slack\", \"mdsbe60td5gwgzetyksdfeyxt4\",",
+            " \t\t\t\t\"--telegram\", \"sdfeyxt4mdsbe60td5gwgzetyk\",",
+            " \t\t\t\t\"--discord\", \"4mdsbe60td5gwgzetyksdfeyxt\",",
+            " \t\t\t\t\"--discord\", \"zext4mdsbe6tyksdfey0td5gwg\",",
+            " \t\t\t\t\"--hangouts-chat\", \"etyksdfeyxt4mdsbe60td5gwgz\",",
+            " \t\t\t\t\"--microsoft-teams\", \"0td5gwgzextbe6tyksdfey4mds\",",
+            " \t\t\t\t\"--mattermost\", \"wgxtzed4yksd5dfeymsbe6t0tg\",",
+            "+\t\t\t\t\"--rocketchat\", \"xteymsbed0zdf4yksd5e6twgtg\",",
+            "+\t\t\t\t\"--matrix\", \"zdf4yksd5e6twgxteymsbed0tg\",",
+            " \t\t\t\t\"--webhook\", \"tbe6tyksdfey4md0td5gwgzexs\",",
+            " \t\t\t\t\"--regex-exclude\", `^0\\.1`,",
+            " \t\t\t\t\"--regex-exclude\", `^0\\.3-inverse`,",
+            " \t\t\t\t\"--exclude-prereleases\",",
+            " \t\t\t\t\"--exclude-updated\",",
+            "+\t\t\t\t\"--note\", \"Some note\",",
+            "+\t\t\t\t\"--tag\", \"33f1db7254b9\",",
+            " \t\t\t},",
+            " \t\t\tprojectsService: newMockProjectsService(1, nil, []newreleases.Project{minimalProject}),",
+            "-\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4                               \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nEmail:                   weekly                                                   \\nSlack:                   mdsbe60td5gwgzetyksdfeyxt4                               \\nTelegram:                sdfeyxt4mdsbe60td5gwgzetyk                               \\nDiscord:                 4mdsbe60td5gwgzetyksdfeyxt, zext4mdsbe6tyksdfey0td5gwg   \\nHangouts Chat:           etyksdfeyxt4mdsbe60td5gwgz                               \\nMicrosoft Teams:         0td5gwgzextbe6tyksdfey4mds                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nWebhooks:                tbe6tyksdfey4md0td5gwgzexs                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\n\",",
+            "+\t\t\twantOutput:      \"ID:                      mdsbe60td5gwgzetyksdfeyxt4                               \\nName:                    golang/go                                                \\nProvider:                github                                                   \\nEmail:                   weekly                                                   \\nSlack:                   mdsbe60td5gwgzetyksdfeyxt4                               \\nTelegram:                sdfeyxt4mdsbe60td5gwgzetyk                               \\nDiscord:                 4mdsbe60td5gwgzetyksdfeyxt, zext4mdsbe6tyksdfey0td5gwg   \\nHangouts Chat:           etyksdfeyxt4mdsbe60td5gwgz                               \\nMicrosoft Teams:         0td5gwgzextbe6tyksdfey4mds                               \\nMattermost:              wgxtzed4yksd5dfeymsbe6t0tg                               \\nRocket.Chat:             xteymsbed0zdf4yksd5e6twgtg   \\nMatrix:             zdf4yksd5e6twgxteymsbed0tg   \\n\\nWebhooks:                tbe6tyksdfey4md0td5gwgzexs                               \\nRegex Exclude:           ^0\\\\.1                                                    \\nRegex Exclude Inverse:   ^0\\\\.3                                                    \\nExclude Pre-Releases:    yes                                                      \\nExclude Updated:         yes                                                      \\nNote:                    Some note                 \\nTags:                    33f1db7254b9                 \\n\",",
+            " \t\t},",
+            " \t\t{",
+            " \t\t\tname:            \"error\",",
+            " \t\t\tprojectsService: newMockProjectsService(1, errTest),",
+            " \t\t\twantError:       errTest,",
+            " \t\t},",
+            " \t} {",
+            "@@ -105,30 +125,32 @@",
+            " \t\t\t\t\tcmd.WithArgs(append([]string{\"project\", \"update\", \"mdsbe60td5gwgzetyksdfeyxt4\"}, tc.args...)...),",
+            " \t\t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t\t}",
+            " ",
+            "-\t\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t\t}",
+            " \t\t\t})",
+            " \t\t\tt.Run(\"by name\", func(t *testing.T) {",
+            " \t\t\t\tvar outputBuf bytes.Buffer",
+            " \t\t\t\tif err := newCommand(t,",
+            " \t\t\t\t\tcmd.WithArgs(append([]string{\"project\", \"update\", \"github\", \"golang/go\"}, tc.args...)...),",
+            " \t\t\t\t\tcmd.WithOutput(&outputBuf),",
+            " \t\t\t\t\tcmd.WithProjectsService(tc.projectsService),",
+            " \t\t\t\t).Execute(); err != tc.wantError {",
+            " \t\t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            " \t\t\t\t}",
+            " ",
+            "-\t\t\t\tgotOutput := outputBuf.String()",
+            "-\t\t\t\tif gotOutput != tc.wantOutput {",
+            "-\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, tc.wantOutput)",
+            "+\t\t\t\twantOutput := trimSpace(tc.wantOutput)",
+            "+\t\t\t\tgotOutput := trimSpace(outputBuf.String())",
+            "+\t\t\t\tif gotOutput != wantOutput {",
+            "+\t\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t\t}",
+            " \t\t\t})",
+            " \t\t})",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/release.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/release.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/release.go",
+            "@@ -22,14 +22,17 @@",
+            " ",
+            " \tif err := c.initReleaseListCmd(cmd); err != nil {",
+            " \t\treturn err",
+            " \t}",
+            " \tif err := c.initReleaseGetCmd(cmd); err != nil {",
+            " \t\treturn err",
+            " \t}",
+            "+\tif err := c.initReleaseGetLatestCmd(cmd); err != nil {",
+            "+\t\treturn err",
+            "+\t}",
+            " \tif err := c.initReleaseNoteCmd(cmd); err != nil {",
+            " \t\treturn err",
+            " \t}",
+            " ",
+            " \tc.root.AddCommand(cmd)",
+            " \treturn nil",
+            " }",
+            "@@ -131,14 +134,55 @@",
+            " \t\t},",
+            " \t}",
+            " ",
+            " \treleaseCmd.AddCommand(cmd)",
+            " \treturn addClientFlags(cmd)",
+            " }",
+            " ",
+            "+func (c *command) initReleaseGetLatestCmd(releaseCmd *cobra.Command) (err error) {",
+            "+\tcmd := &cobra.Command{",
+            "+\t\tUse:   \"get-latest [provider project_name] | [project_id]\",",
+            "+\t\tShort: \"Get the latest non-excluded project release\",",
+            "+\t\tRunE: func(cmd *cobra.Command, args []string) (err error) {",
+            "+\t\t\tctx, cancel := newClientContext(c.config)",
+            "+\t\t\tdefer cancel()",
+            "+",
+            "+\t\t\tvar release *newreleases.Release",
+            "+\t\t\tswitch len(args) {",
+            "+\t\t\tcase 1:",
+            "+\t\t\t\trelease, err = c.releasesService.GetLatestByProjectID(ctx, args[0])",
+            "+\t\t\tcase 2:",
+            "+\t\t\t\trelease, err = c.releasesService.GetLatestByProjectName(ctx, args[0], args[1])",
+            "+\t\t\tdefault:",
+            "+\t\t\t\treturn cmd.Help()",
+            "+\t\t\t}",
+            "+\t\t\tif err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+",
+            "+\t\t\tif release == nil {",
+            "+\t\t\t\tcmd.Println(\"Release not found.\")",
+            "+\t\t\t\treturn nil",
+            "+\t\t\t}",
+            "+",
+            "+\t\t\tprintRelease(cmd, release)",
+            "+\t\t\treturn nil",
+            "+\t\t},",
+            "+\t\tPreRunE: func(cmd *cobra.Command, args []string) error {",
+            "+\t\t\tif err := addClientConfigOptions(cmd, c.config); err != nil {",
+            "+\t\t\t\treturn err",
+            "+\t\t\t}",
+            "+\t\t\treturn c.setReleasesService(cmd, args)",
+            "+\t\t},",
+            "+\t}",
+            "+",
+            "+\treleaseCmd.AddCommand(cmd)",
+            "+\treturn addClientFlags(cmd)",
+            "+}",
+            "+",
+            " func (c *command) initReleaseNoteCmd(releaseCmd *cobra.Command) (err error) {",
+            " \tcmd := &cobra.Command{",
+            " \t\tUse:   \"note [PROVIDER PROJECT_NAME] | [PROJECT_ID] version\",",
+            " \t\tShort: \"Get a project release note\",",
+            " \t\tRunE: func(cmd *cobra.Command, args []string) (err error) {",
+            " \t\t\tctx, cancel := newClientContext(c.config)",
+            " \t\t\tdefer cancel()",
+            "@@ -189,14 +233,16 @@",
+            " }",
+            " ",
+            " type releasesService interface {",
+            " \tListByProjectID(ctx context.Context, projectID string, page int) (releases []newreleases.Release, lastPage int, err error)",
+            " \tListByProjectName(ctx context.Context, provider, projectName string, page int) (releases []newreleases.Release, lastPage int, err error)",
+            " \tGetByProjectID(ctx context.Context, projectID, version string) (release *newreleases.Release, err error)",
+            " \tGetByProjectName(ctx context.Context, provider, projectName, version string) (release *newreleases.Release, err error)",
+            "+\tGetLatestByProjectID(ctx context.Context, projectID string) (release *newreleases.Release, err error)",
+            "+\tGetLatestByProjectName(ctx context.Context, provider, projectName string) (release *newreleases.Release, err error)",
+            " \tGetNoteByProjectID(ctx context.Context, projectID string, version string) (release *newreleases.ReleaseNote, err error)",
+            " \tGetNoteByProjectName(ctx context.Context, provider, projectName string, version string) (release *newreleases.ReleaseNote, err error)",
+            " }",
+            " ",
+            " func printReleasesTable(cmd *cobra.Command, releases []newreleases.Release) {",
+            " \ttable := newTable(cmd.OutOrStdout())",
+            " \ttable.SetHeader([]string{\"Version\", \"Date\", \"Pre-Release\", \"Has Note\", \"Updated\", \"Excluded\", \"CVE\"})"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/release_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/release_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/release_test.go",
+            "@@ -158,14 +158,86 @@",
+            " \t\t\tif wantOutput := tc.wantOutputFunc(); gotOutput != wantOutput {",
+            " \t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            " \t\t\t}",
+            " \t\t})",
+            " \t}",
+            " }",
+            " ",
+            "+func TestReleaseCmd_GetLatest(t *testing.T) {",
+            "+\tfor _, tc := range []struct {",
+            "+\t\tname            string",
+            "+\t\targs            []string",
+            "+\t\treleasesService cmd.ReleasesService",
+            "+\t\twantOutputFunc  func() string",
+            "+\t\twantError       error",
+            "+\t}{",
+            "+\t\t{",
+            "+\t\t\tname:            \"no releases\",",
+            "+\t\t\targs:            []string{\"github\", \"golang/go\"},",
+            "+\t\t\treleasesService: newMockReleasesService(nil, nil, 1, nil),",
+            "+\t\t\twantOutputFunc:  func() string { return \"Release not found.\\n\" },",
+            "+\t\t},",
+            "+\t\t{",
+            "+\t\t\tname: \"release\",",
+            "+\t\t\targs: []string{\"github\", \"golang/go\"},",
+            "+\t\t\treleasesService: newMockReleasesService([]newreleases.Release{",
+            "+\t\t\t\t{Version: \"v0.1.0\", Date: newTime(t, \"2019-10-22T01:45:55Z\")},",
+            "+\t\t\t}, nil, 1, nil),",
+            "+\t\t\twantOutputFunc: func() string {",
+            "+\t\t\t\tdateLen := len(newTime(t, \"2019-10-22T01:45:55Z\").Local().String())",
+            "+\t\t\t\treturn fmt.Sprintf(\"Version:   v0.1.0%s   \\nDate:      %s   \\n\",",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-6),",
+            "+\t\t\t\t\tnewTime(t, \"2019-10-22T01:45:55Z\").Local(),",
+            "+\t\t\t\t)",
+            "+\t\t\t},",
+            "+\t\t},",
+            "+\t\t{",
+            "+\t\t\tname: \"release with optional flags\",",
+            "+\t\t\targs: []string{\"github\", \"golang/go\"},",
+            "+\t\t\treleasesService: newMockReleasesService([]newreleases.Release{",
+            "+\t\t\t\t{Version: \"v0.1.0\", Date: newTime(t, \"2019-10-22T01:45:55Z\"), IsPrerelease: true, HasNote: true, IsUpdated: true, IsExcluded: true},",
+            "+\t\t\t}, nil, 1, nil),",
+            "+\t\t\twantOutputFunc: func() string {",
+            "+\t\t\t\tdateLen := len(newTime(t, \"2019-10-22T01:45:55Z\").Local().String())",
+            "+\t\t\t\treturn fmt.Sprintf(\"Version:       v0.1.0%s   \\nDate:          %s   \\nPre-Release:   yes%s   \\nHas Note:      yes%s   \\nUpdated:       yes%s   \\nExcluded:      yes%s   \\n\",",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-6),",
+            "+\t\t\t\t\tnewTime(t, \"2019-10-22T01:45:55Z\").Local(),",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-3),",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-3),",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-3),",
+            "+\t\t\t\t\tstrings.Repeat(\" \", dateLen-3),",
+            "+\t\t\t\t)",
+            "+\t\t\t},",
+            "+\t\t},",
+            "+\t\t{",
+            "+\t\t\tname:            \"error\",",
+            "+\t\t\targs:            []string{\"github\", \"golang/go\"},",
+            "+\t\t\treleasesService: newMockReleasesService(nil, nil, 1, errTest),",
+            "+\t\t\twantOutputFunc:  func() string { return \"\" },",
+            "+\t\t\twantError:       errTest,",
+            "+\t\t},",
+            "+\t} {",
+            "+\t\tt.Run(tc.name, func(t *testing.T) {",
+            "+\t\t\tvar outputBuf bytes.Buffer",
+            "+\t\t\tif err := newCommand(t,",
+            "+\t\t\t\tcmd.WithArgs(append([]string{\"release\", \"get-latest\"}, tc.args...)...),",
+            "+\t\t\t\tcmd.WithOutput(&outputBuf),",
+            "+\t\t\t\tcmd.WithReleasesService(tc.releasesService),",
+            "+\t\t\t).Execute(); err != tc.wantError {",
+            "+\t\t\t\tt.Fatalf(\"got error %v, want %v\", err, tc.wantError)",
+            "+\t\t\t}",
+            "+",
+            "+\t\t\tgotOutput := outputBuf.String()",
+            "+\t\t\tif wantOutput := tc.wantOutputFunc(); gotOutput != wantOutput {",
+            "+\t\t\t\tt.Errorf(\"got output %q, want %q\", gotOutput, wantOutput)",
+            "+\t\t\t}",
+            "+\t\t})",
+            "+\t}",
+            "+}",
+            "+",
+            " func TestReleaseCmd_Note(t *testing.T) {",
+            " \tfor _, tc := range []struct {",
+            " \t\tname            string",
+            " \t\targs            []string",
+            " \t\treleasesService cmd.ReleasesService",
+            " \t\twantOutput      string",
+            " \t\twantError       error",
+            "@@ -240,14 +312,28 @@",
+            " func (s mockReleasesService) GetByProjectName(ctx context.Context, provider, projectName, version string) (release *newreleases.Release, err error) {",
+            " \tif len(s.releases) == 0 {",
+            " \t\treturn nil, s.err",
+            " \t}",
+            " \treturn &s.releases[0], s.err",
+            " }",
+            " ",
+            "+func (s mockReleasesService) GetLatestByProjectID(ctx context.Context, projectID string) (release *newreleases.Release, err error) {",
+            "+\tif len(s.releases) == 0 {",
+            "+\t\treturn nil, s.err",
+            "+\t}",
+            "+\treturn &s.releases[0], s.err",
+            "+}",
+            "+",
+            "+func (s mockReleasesService) GetLatestByProjectName(ctx context.Context, provider, projectName string) (release *newreleases.Release, err error) {",
+            "+\tif len(s.releases) == 0 {",
+            "+\t\treturn nil, s.err",
+            "+\t}",
+            "+\treturn &s.releases[0], s.err",
+            "+}",
+            "+",
+            " func (s mockReleasesService) GetNoteByProjectID(ctx context.Context, projectID string, version string) (release *newreleases.ReleaseNote, err error) {",
+            " \treturn s.note, s.err",
+            " }",
+            " ",
+            " func (s mockReleasesService) GetNoteByProjectName(ctx context.Context, provider, projectName string, version string) (release *newreleases.ReleaseNote, err error) {",
+            " \treturn s.note, s.err",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/terminal.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/terminal.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/terminal.go",
+            "@@ -6,25 +6,25 @@",
+            " package cmd",
+            " ",
+            " import (",
+            " \t\"os\"",
+            " \t\"strings\"",
+            " ",
+            " \t\"github.com/spf13/cobra\"",
+            "-\t\"golang.org/x/crypto/ssh/terminal\"",
+            "+\t\"golang.org/x/term\"",
+            " )",
+            " ",
+            " type passwordReader interface {",
+            " \tReadPassword() (password string, err error)",
+            " }",
+            " ",
+            " type stdInPasswordReader struct{}",
+            " ",
+            " func (stdInPasswordReader) ReadPassword() (password string, err error) {",
+            "-\tv, err := terminal.ReadPassword(int(os.Stdin.Fd()))",
+            "+\tv, err := term.ReadPassword(int(os.Stdin.Fd()))",
+            " \tif err != nil {",
+            " \t\treturn \"\", err",
+            " \t}",
+            " \treturn string(v), err",
+            " }",
+            " ",
+            " func terminalPromptPassword(cmd *cobra.Command, r passwordReader, title string) (password string, err error) {"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/version.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/version.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/version.go",
+            "@@ -12,11 +12,11 @@",
+            " )",
+            " ",
+            " func (c *command) initVersionCmd() {",
+            " \tc.root.AddCommand(&cobra.Command{",
+            " \t\tUse:   \"version\",",
+            " \t\tShort: \"Print version number\",",
+            " \t\tRun: func(cmd *cobra.Command, args []string) {",
+            "-\t\t\tcmd.Println(nrcmd.Version)",
+            "+\t\t\tcmd.Println(nrcmd.Version())",
+            " \t\t},",
+            " \t})",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/newreleases/cmd/version_test.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/newreleases/cmd/version_test.go",
+            "+++ /home/cli-go-0.1.16/newreleases/cmd/version_test.go",
+            "@@ -18,13 +18,13 @@",
+            " \tif err := newCommand(t,",
+            " \t\tcmd.WithArgs(\"version\"),",
+            " \t\tcmd.WithOutput(&outputBuf),",
+            " \t).Execute(); err != nil {",
+            " \t\tt.Fatal(err)",
+            " \t}",
+            " ",
+            "-\twant := nrcmd.Version + \"\\n\"",
+            "+\twant := nrcmd.Version() + \"\\n\"",
+            " \tgot := outputBuf.String()",
+            " \tif got != want {",
+            " \t\tt.Errorf(\"got output %q, want %q\", got, want)",
+            " \t}",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/cli-go-0.1.16/version.go",
+          "change": [
+            "--- /home/cli-go-0.1.7/version.go",
+            "+++ /home/cli-go-0.1.16/version.go",
+            "@@ -1,9 +1,47 @@",
+            " // Copyright (c) 2019, NewReleases CLI AUTHORS.",
+            " // All rights reserved.",
+            " // Use of this source code is governed by a BSD-style",
+            " // license that can be found in the LICENSE file.",
+            " ",
+            " package cmd",
+            " ",
+            "-// Version is a manually set semantic version number.",
+            "-var Version = \"v0.1.7\"",
+            "+import \"runtime/debug\"",
+            "+",
+            "+// automatically set on release",
+            "+// and updated with vcs revision on init",
+            "+var version = \"0.0.0\"",
+            "+",
+            "+func init() {",
+            "+\tinfo, ok := debug.ReadBuildInfo()",
+            "+\tif !ok {",
+            "+\t\treturn",
+            "+\t}",
+            "+",
+            "+\tvar revision string",
+            "+\tvar dirtyBuild bool",
+            "+\tfor _, s := range info.Settings {",
+            "+\t\tswitch s.Key {",
+            "+\t\tcase \"vcs.revision\":",
+            "+\t\t\trevision = s.Value",
+            "+\t\tcase \"vcs.modified\":",
+            "+\t\t\tdirtyBuild = s.Value == \"true\"",
+            "+\t\t}",
+            "+\t}",
+            "+",
+            "+\tif len(revision) == 0 {",
+            "+\t\treturn",
+            "+\t}",
+            "+",
+            "+\tif len(revision) > 7 {",
+            "+\t\trevision = revision[:7]",
+            "+\t}",
+            "+",
+            "+\tversion += \"-\" + revision",
+            "+\tif dirtyBuild {",
+            "+\t\tversion += \"-dirty\"",
+            "+\t}",
+            "+}",
+            "+",
+            "+func Version() string {",
+            "+\treturn version",
+            "+}"
+          ]
+        }
+      ]
+    }
+  }
+}

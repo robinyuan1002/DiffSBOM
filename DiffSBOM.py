@@ -29,8 +29,16 @@ def check_and_install():
             sys.exit(1)
 
 def is_source_file(path):
-    return path.endswith(('.c', '.cpp', '.h', '.hpp'))
-
+    return path.endswith((
+        '.c', '.h',
+        '.cpp', '.cc', '.cxx', '.hpp', '.hxx',
+        '.py',
+        '.java',
+        '.go',
+        '.rs',
+        '.cs'
+    ))
+    
 def run_diffoscope(old_file, new_file):
     try:
         result = subprocess.run(
@@ -40,31 +48,33 @@ def run_diffoscope(old_file, new_file):
             text=True,
             timeout=30
         )
-        return result.stdout.splitlines()
+        return result.stdout.splitlines()  # 多行数组
     except Exception as e:
         return [f"[ERROR] Failed to run diffoscope: {e}"]
 
 def compare_directories(old_dir, new_dir):
-    old_files = {f.relative_to(old_dir) for f in Path(old_dir).rglob('*') if f.is_file() and is_source_file(str(f))}
-    new_files = {f.relative_to(new_dir) for f in Path(new_dir).rglob('*') if f.is_file() and is_source_file(str(f))}
+    old_dir = Path(old_dir).resolve()
+    new_dir = Path(new_dir).resolve()
+
+    old_files = {f.relative_to(old_dir) for f in old_dir.rglob('*') if f.is_file() and is_source_file(str(f))}
+    new_files = {f.relative_to(new_dir) for f in new_dir.rglob('*') if f.is_file() and is_source_file(str(f))}
 
     added = new_files - old_files
     removed = old_files - new_files
     common = old_files & new_files
 
     changes = {
-        "New file": sorted([str((Path(new_dir) / f).resolve()) for f in added]),
-        "Deleted file": sorted([str((Path(old_dir) / f).resolve()) for f in removed]),
+        "old_version": str(old_dir),
+        "New file": sorted([str((new_dir / f).resolve()) for f in added]),
+        "Deleted file": sorted([str((old_dir / f).resolve()) for f in removed]),
         "Modified file": []
     }
 
     for f in sorted(common):
-        old_path = (Path(old_dir) / f).resolve()
-        new_path = (Path(new_dir) / f).resolve()
+        old_path = (old_dir / f).resolve()
+        new_path = (new_dir / f).resolve()
         with open(old_path, 'r') as f1, open(new_path, 'r') as f2:
-            old_lines = f1.readlines()
-            new_lines = f2.readlines()
-            if old_lines != new_lines:
+            if f1.read() != f2.read():
                 diff_output = run_diffoscope(old_path, new_path)
                 changes["Modified file"].append({
                     "file": str(new_path),
@@ -77,35 +87,37 @@ def compare_files(old_file, new_file):
     old_file = Path(old_file).resolve()
     new_file = Path(new_file).resolve()
     if not (is_source_file(str(old_file)) and is_source_file(str(new_file))):
-        return {"upgrade": {"file_changes": {"New file": [], "Deleted file": [], "Modified file": []}}}
+        return {"upgrade": {"file_changes": {"old_version": str(old_file.parent), "New file": [], "Deleted file": [], "Modified file": []}}}
 
     with open(old_file, 'r') as f1, open(new_file, 'r') as f2:
-        old_lines = f1.readlines()
-        new_lines = f2.readlines()
-
-    if old_lines != new_lines:
-        diff_output = run_diffoscope(old_file, new_file)
-        return {
-            "upgrade": {
-                "file_changes": {
-                    "New file": [],
-                    "Deleted file": [],
-                    "Modified file": [
-                        {"file": str(new_file), "change": diff_output}
-                    ]
+        if f1.read() != f2.read():
+            diff_output = run_diffoscope(old_file, new_file)
+            return {
+                "upgrade": {
+                    "file_changes": {
+                        "old_version": str(old_file.parent),
+                        "New file": [],
+                        "Deleted file": [],
+                        "Modified file": [
+                            {
+                                "file": str(new_file),
+                                "change": diff_output
+                            }
+                        ]
+                    }
                 }
             }
-        }
-    else:
-        return {
-            "upgrade": {
-                "file_changes": {
-                    "New file": [],
-                    "Deleted file": [],
-                    "Modified file": []
+        else:
+            return {
+                "upgrade": {
+                    "file_changes": {
+                        "old_version": str(old_file.parent),
+                        "New file": [],
+                        "Deleted file": [],
+                        "Modified file": []
+                    }
                 }
             }
-        }
 
 def generate_sbom_with_upgrade(format, target_path, upgrade_data):
     sbom_file = os.path.join(os.getcwd(), f"sbom.{format}_with_upgrade.json")

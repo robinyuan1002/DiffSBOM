@@ -1,0 +1,985 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:bbf89c90-ba5d-4cc0-b506-573602bd3bb3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-13T21:33:14-04:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.28.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "95405aaa833fbdad",
+      "type": "file",
+      "name": "rabbitmq-c-0.15.0/"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=fa2e67b8c20f75f3",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=9235b9374321d01c",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v4?package-id=4270b206b0dc703b",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=6e46bc88f6d5e449#analyze",
+      "type": "library",
+      "name": "github/codeql-action/analyze",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v3#analyze",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=e44f6bc7aabf3d57#init",
+      "type": "library",
+      "name": "github/codeql-action/init",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v3#init",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/google/oss-fuzz@master?package-id=95c24ead5738875a#infra/cifuzz/actions/build_fuzzers",
+      "type": "library",
+      "name": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "cpe": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/build_fuzzers",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/google/oss-fuzz@master?package-id=003690b85bd9f86c#infra/cifuzz/actions/run_fuzzers",
+      "type": "library",
+      "name": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "cpe": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/run_fuzzers",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7561d461b00ff11d",
+      "type": "file",
+      "name": "/home/rabbitmq-c-0.15.0/.github/workflows/ci.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "179cb97e19a71d6cab04fed96b662f1ff9332897"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "34deb87abd3a48466a27b402bfcf15e3e4b62cd363deaaa16e055e84e7d7105a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aca88650164dfbe2",
+      "type": "file",
+      "name": "/home/rabbitmq-c-0.15.0/.github/workflows/cifuzz.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d8227c8ea6f06b19b20ceb249525740daf89c2c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "48856e39a5ed648eb7dd652adfc3c6755f664dc66f3b0f461dbcba453865714d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5e19ea2e1f9dfee4",
+      "type": "file",
+      "name": "/home/rabbitmq-c-0.15.0/.github/workflows/codeql-analysis.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a6026259bf993711dc5c8d3da0e0211cb31121c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c304e7e102078685f4bd7bb12444a59d4a23958774dd22fcf9926678384a4526"
+        }
+      ]
+    }
+  ],
+  "upgrade": {
+    "file_changes": {
+      "old_version": "/home/rabbitmq-c-0.14.0",
+      "New file": [
+        "/home/rabbitmq-c-0.15.0/examples/amqp_confirm_select.c"
+      ],
+      "Deleted file": [],
+      "Modified file": [
+        {
+          "file": "/home/rabbitmq-c-0.15.0/include/rabbitmq-c/amqp.h",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/include/rabbitmq-c/amqp.h",
+            "+++ /home/rabbitmq-c-0.15.0/include/rabbitmq-c/amqp.h",
+            "@@ -114,15 +114,15 @@",
+            "  */",
+            " /*",
+            "  * Developer note: when changing these, be sure to update SOVERSION constants",
+            "  *  in CMakeLists.txt and configure.ac",
+            "  */",
+            " ",
+            " #define AMQP_VERSION_MAJOR 0",
+            "-#define AMQP_VERSION_MINOR 14",
+            "+#define AMQP_VERSION_MINOR 15",
+            " #define AMQP_VERSION_PATCH 0",
+            " #define AMQP_VERSION_IS_RELEASE 1",
+            " ",
+            " /**",
+            "  * \\def AMQP_VERSION_CODE",
+            "  *",
+            "  * Helper macro to geneate a packed version code suitable for",
+            "@@ -846,14 +846,31 @@",
+            "  * \\since v0.1",
+            "  */",
+            " AMQP_EXPORT",
+            " void AMQP_CALL amqp_pool_alloc_bytes(amqp_pool_t *pool, size_t amount,",
+            "                                      amqp_bytes_t *output);",
+            " ",
+            " /**",
+            "+ * Wraps a c string literal in an amqp_bytes_t",
+            "+ *",
+            "+ * Takes a string literal, calculates its length and creates an",
+            "+ * amqp_bytes_t that points to it. The string literal is not duplicated.",
+            "+ *",
+            "+ * For a given input str, The amqp_bytes_t output.bytes is the",
+            "+ * same as str, output.len is the length of the string literal not including",
+            "+ * the \\0 terminator",
+            "+ *",
+            "+ * \\param [in] str the c string literal to wrap",
+            "+ * \\return an amqp_bytes_t that describes the string literal",
+            "+ *",
+            "+ * \\since v0.15",
+            "+ */",
+            "+#define amqp_literal_bytes(str) (amqp_bytes_t){sizeof(str) - 1, str}",
+            "+",
+            "+/**",
+            "  * Wraps a c string in an amqp_bytes_t",
+            "  *",
+            "  * Takes a string, calculates its length and creates an",
+            "  * amqp_bytes_t that points to it. The string is not duplicated.",
+            "  *",
+            "  * For a given input cstr, The amqp_bytes_t output.bytes is the",
+            "  * same as cstr, output.len is the length of the string not including",
+            "@@ -2429,10 +2446,58 @@",
+            "  *",
+            "  * \\since v0.9.0",
+            "  */",
+            " AMQP_EXPORT",
+            " int AMQP_CALL amqp_set_rpc_timeout(amqp_connection_state_t state,",
+            "                                    const struct timeval *timeout);",
+            " ",
+            "+/**",
+            "+ * Possible payload permutations for publisher confirms.",
+            "+ **/",
+            "+typedef union amqp_publisher_confirm_payload_t_ {",
+            "+  amqp_basic_ack_t ack; /* basic.ack */",
+            "+  amqp_basic_nack_t nack; /* basic.nack */",
+            "+  amqp_basic_reject_t reject; /* basic.reject */",
+            "+} amqp_publisher_confirm_payload_t;",
+            "+",
+            "+/**",
+            "+ * Return information from publisher confirm wait",
+            "+ **/",
+            "+typedef struct amqp_publisher_confirm_t_ {",
+            "+  amqp_publisher_confirm_payload_t payload; /* The response payload; check the `method` value to see which value you should use in the union */",
+            "+  amqp_channel_t channel; /* The channel where the confirmation was received */",
+            "+  amqp_method_number_t method; /* The method which was received */",
+            "+} amqp_publisher_confirm_t;",
+            "+",
+            "+/**",
+            "+ * amqp_publisher_confirm_wait",
+            "+ *",
+            "+ * Wait for a publisher confirm when one or more channel is in select mode.",
+            "+ * If the response has a `reply_type` of `AMQP_RESPONSE_LIBRARY_EXCEPTION` _and_",
+            "+ * the `library_error` is `AMQP_STATUS_UNEXPECTED_STATE`, then the frame",
+            "+ * received was not an ack.",
+            "+ *",
+            "+ * In the event that there are no publisher confirms received during the",
+            "+ * allotted time, `reply_type` will be `AMQP_RESPONSE_LIBRARY_EXCEPTION`",
+            "+ * and the `library_error` will be `AMQP_STATUS_TIMEOUT`.",
+            "+ *",
+            "+ * When a publisher confirm is received, `reply_type` will equal",
+            "+ * `AMQP_RESPONSE_NORMAL`, and the `result` out parameter will",
+            "+ * contain all of the information you need:",
+            "+ * ",
+            "+ * - The `channel` will identify which channel the publisher confirm was received on",
+            "+ * - The `method` will tell you whether this is an `ack`, `nack`, or `reject`",
+            "+ * - The `payload` is a union, and based on the `method` it will use one of `amqp_basic_ack_t`, `amqp_basic_nack_t`, or `amqp_basic_reject_t`",
+            "+ *",
+            "+ * \\param [in] state connection state",
+            "+ * \\param [in] timeout when waiting for the frame. Passing NULL will result in",
+            "+ * blocking behavior",
+            "+ * \\param [out] The result of the publisher confirm wait.",
+            "+ */",
+            "+AMQP_EXPORT",
+            "+amqp_rpc_reply_t AMQP_CALL amqp_publisher_confirm_wait(",
+            "+    amqp_connection_state_t state, const struct timeval *timeout,",
+            "+    amqp_publisher_confirm_t *result);",
+            "+",
+            " AMQP_END_DECLS",
+            " ",
+            " #endif /* RABBITMQ_C_RABBITMQ_C_H */"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/librabbitmq/amqp_api.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/librabbitmq/amqp_api.c",
+            "+++ /home/rabbitmq-c-0.15.0/librabbitmq/amqp_api.c",
+            "@@ -360,7 +360,62 @@",
+            "     state->rpc_timeout = &state->internal_rpc_timeout;",
+            "     *state->rpc_timeout = *timeout;",
+            "   } else {",
+            "     state->rpc_timeout = NULL;",
+            "   }",
+            "   return AMQP_STATUS_OK;",
+            " }",
+            "+",
+            "+amqp_rpc_reply_t amqp_publisher_confirm_wait(amqp_connection_state_t state,",
+            "+                                             const struct timeval *timeout,",
+            "+                                             amqp_publisher_confirm_t *result) {",
+            "+  int res;",
+            "+  amqp_frame_t frame;",
+            "+  amqp_rpc_reply_t ret;",
+            "+",
+            "+  memset(&ret, 0x0, sizeof(ret));",
+            "+  memset(result, 0x0, sizeof(amqp_publisher_confirm_t));",
+            "+",
+            "+  res = amqp_simple_wait_frame_noblock(state, &frame, timeout);",
+            "+",
+            "+  if (AMQP_STATUS_OK != res) {",
+            "+    ret.reply_type = AMQP_RESPONSE_LIBRARY_EXCEPTION;",
+            "+    ret.library_error = res;",
+            "+    return ret;",
+            "+  } else if (AMQP_FRAME_METHOD != frame.frame_type ||",
+            "+             (AMQP_BASIC_ACK_METHOD != frame.payload.method.id &&",
+            "+              AMQP_BASIC_NACK_METHOD != frame.payload.method.id &&",
+            "+              AMQP_BASIC_REJECT_METHOD != frame.payload.method.id)) {",
+            "+    amqp_put_back_frame(state, &frame);",
+            "+    ret.reply_type = AMQP_RESPONSE_LIBRARY_EXCEPTION;",
+            "+    ret.library_error = AMQP_STATUS_UNEXPECTED_STATE;",
+            "+    return ret;",
+            "+  }",
+            "+",
+            "+  switch (frame.payload.method.id) {",
+            "+    case AMQP_BASIC_ACK_METHOD:",
+            "+      memcpy(&(result->payload.ack), frame.payload.method.decoded,",
+            "+             sizeof(amqp_basic_ack_t));",
+            "+      break;",
+            "+",
+            "+    case AMQP_BASIC_NACK_METHOD:",
+            "+      memcpy(&(result->payload.nack), frame.payload.method.decoded,",
+            "+             sizeof(amqp_basic_nack_t));",
+            "+      break;",
+            "+",
+            "+    case AMQP_BASIC_REJECT_METHOD:",
+            "+      memcpy(&(result->payload.reject), frame.payload.method.decoded,",
+            "+             sizeof(amqp_basic_reject_t));",
+            "+      break;",
+            "+",
+            "+    default:",
+            "+      amqp_put_back_frame(state, &frame);",
+            "+      ret.reply_type = AMQP_RESPONSE_LIBRARY_EXCEPTION;",
+            "+      ret.library_error = AMQP_STATUS_UNSUPPORTED;",
+            "+      return ret;",
+            "+  }",
+            "+  result->method = frame.payload.method.id;",
+            "+  result->channel = frame.channel;",
+            "+  ret.reply_type = AMQP_RESPONSE_NORMAL;",
+            "+",
+            "+  return ret;",
+            "+}"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/librabbitmq/amqp_connection.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/librabbitmq/amqp_connection.c",
+            "+++ /home/rabbitmq-c-0.15.0/librabbitmq/amqp_connection.c",
+            "@@ -265,34 +265,33 @@",
+            "        * that the stated frame_size is smaller than a signed 32-bit. Given",
+            "        * the library only allows configuring frame_max as an int32_t, and",
+            "        * frame_size is uint32_t, the math below is safe from overflow. */",
+            "       if (frame_size >= INT32_MAX) {",
+            "         return AMQP_STATUS_BAD_AMQP_DATA;",
+            "       }",
+            " ",
+            "-      state->target_size = frame_size + HEADER_SIZE + FOOTER_SIZE;",
+            "-      if ((size_t)state->frame_max < state->target_size) {",
+            "+      frame_size = frame_size + HEADER_SIZE + FOOTER_SIZE;",
+            "+      if ((size_t)state->frame_max < frame_size) {",
+            "         return AMQP_STATUS_BAD_AMQP_DATA;",
+            "       }",
+            " ",
+            "       channel_pool = amqp_get_or_create_channel_pool(state, channel);",
+            "       if (NULL == channel_pool) {",
+            "         return AMQP_STATUS_NO_MEMORY;",
+            "       }",
+            " ",
+            "-      amqp_pool_alloc_bytes(channel_pool, state->target_size,",
+            "-                            &state->inbound_buffer);",
+            "+      amqp_pool_alloc_bytes(channel_pool, frame_size, &state->inbound_buffer);",
+            "       if (NULL == state->inbound_buffer.bytes) {",
+            "         return AMQP_STATUS_NO_MEMORY;",
+            "       }",
+            "       memcpy(state->inbound_buffer.bytes, state->header_buffer, HEADER_SIZE);",
+            "       raw_frame = state->inbound_buffer.bytes;",
+            " ",
+            "       state->state = CONNECTION_STATE_BODY;",
+            "-",
+            "+      state->target_size = frame_size;",
+            "       bytes_consumed += consume_data(state, &received_data);",
+            " ",
+            "       /* do we have target_size data yet? if not, return with the",
+            "          expectation that more will arrive */",
+            "       if (state->inbound_offset < state->target_size) {",
+            "         return (int)bytes_consumed;",
+            "       }"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/librabbitmq/amqp_openssl.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/librabbitmq/amqp_openssl.c",
+            "+++ /home/rabbitmq-c-0.15.0/librabbitmq/amqp_openssl.c",
+            "@@ -211,15 +211,19 @@",
+            "     }",
+            "     if (AMQP_STATUS_OK == status) {",
+            "       goto start_connect;",
+            "     }",
+            "     goto error_out2;",
+            "   }",
+            " ",
+            "+#if OPENSSL_VERSION_NUMBER < 0x30000000L",
+            "   cert = SSL_get_peer_certificate(self->ssl);",
+            "+#else",
+            "+  cert = SSL_get1_peer_certificate(self->ssl);",
+            "+#endif",
+            " ",
+            "   if (self->verify_peer) {",
+            "     if (!cert) {",
+            "       self->internal_error = 0;",
+            "       status = AMQP_STATUS_SSL_PEER_VERIFY_FAILED;",
+            "       goto error_out3;",
+            "     }",
+            "@@ -623,15 +627,15 @@",
+            "   CHECK_SUCCESS(pthread_mutex_unlock(&openssl_init_mutex));",
+            "   return status;",
+            " #else",
+            "   return AMQP_STATUS_SSL_UNIMPLEMENTED;",
+            " #endif",
+            " }",
+            " ",
+            "-static int initialize_ssl_and_increment_connections() {",
+            "+static int initialize_ssl_and_increment_connections(void) {",
+            "   int status;",
+            "   CHECK_SUCCESS(pthread_mutex_lock(&openssl_init_mutex));",
+            " ",
+            "   if (!openssl_bio_initialized) {",
+            "     status = amqp_openssl_bio_init();",
+            "     if (status) {",
+            "       goto exit;"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/librabbitmq/amqp_socket.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/librabbitmq/amqp_socket.c",
+            "+++ /home/rabbitmq-c-0.15.0/librabbitmq/amqp_socket.c",
+            "@@ -505,18 +505,18 @@",
+            " }",
+            " ",
+            " static amqp_bytes_t sasl_method_name(amqp_sasl_method_enum method) {",
+            "   amqp_bytes_t res;",
+            " ",
+            "   switch (method) {",
+            "     case AMQP_SASL_METHOD_PLAIN:",
+            "-      res = amqp_cstring_bytes(\"PLAIN\");",
+            "+      res = amqp_literal_bytes(\"PLAIN\");",
+            "       break;",
+            "     case AMQP_SASL_METHOD_EXTERNAL:",
+            "-      res = amqp_cstring_bytes(\"EXTERNAL\");",
+            "+      res = amqp_literal_bytes(\"EXTERNAL\");",
+            "       break;",
+            " ",
+            "     default:",
+            "       amqp_abort(\"Invalid SASL method: %d\", (int)method);",
+            "   }",
+            " ",
+            "   return res;",
+            "@@ -1328,15 +1328,15 @@",
+            "     if (AMQP_STATUS_OK != res) {",
+            "       goto error_res;",
+            "     }",
+            " ",
+            "     s.client_properties = state->client_properties;",
+            "     s.mechanism = sasl_method_name(sasl_method);",
+            "     s.response = response_bytes;",
+            "-    s.locale = amqp_cstring_bytes(\"en_US\");",
+            "+    s.locale = amqp_literal_bytes(\"en_US\");",
+            " ",
+            "     res = amqp_send_method_inner(state, 0, AMQP_CONNECTION_START_OK_METHOD, &s,",
+            "                                  AMQP_SF_NONE, deadline);",
+            "     if (res < 0) {",
+            "       goto error_res;",
+            "     }",
+            "   }"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/tests/test_sasl_mechanism.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/tests/test_sasl_mechanism.c",
+            "+++ /home/rabbitmq-c-0.15.0/tests/test_sasl_mechanism.c",
+            "@@ -22,17 +22,17 @@",
+            "             \"Expected the mechanism not on the list, but it was present: %s\\n\",",
+            "             (char *)mechanisms.bytes);",
+            "     abort();",
+            "   }",
+            " }",
+            " ",
+            " int main(void) {",
+            "-  parse_success(amqp_cstring_bytes(\"DIGEST-MD5 CRAM-MD5 LOGIN PLAIN\"),",
+            "+  parse_success(amqp_literal_bytes(\"DIGEST-MD5 CRAM-MD5 LOGIN PLAIN\"),",
+            "                 AMQP_SASL_METHOD_PLAIN);",
+            "-  parse_fail(amqp_cstring_bytes(\"DIGEST-MD5 CRAM-MD5 LOGIN PLAIN\"),",
+            "+  parse_fail(amqp_literal_bytes(\"DIGEST-MD5 CRAM-MD5 LOGIN PLAIN\"),",
+            "              AMQP_SASL_METHOD_EXTERNAL);",
+            "-  parse_success(amqp_cstring_bytes(\"DIGEST-MD5 CRAM-MD5 EXTERNAL\"),",
+            "+  parse_success(amqp_literal_bytes(\"DIGEST-MD5 CRAM-MD5 EXTERNAL\"),",
+            "                 AMQP_SASL_METHOD_EXTERNAL);",
+            "-  parse_fail(amqp_cstring_bytes(\"DIGEST-MD5 CRAM-MD5 EXTERNAL\"),",
+            "+  parse_fail(amqp_literal_bytes(\"DIGEST-MD5 CRAM-MD5 EXTERNAL\"),",
+            "              AMQP_SASL_METHOD_PLAIN);",
+            "   return 0;",
+            " }"
+          ]
+        },
+        {
+          "file": "/home/rabbitmq-c-0.15.0/tests/test_tables.c",
+          "change": [
+            "--- /home/rabbitmq-c-0.14.0/tests/test_tables.c",
+            "+++ /home/rabbitmq-c-0.15.0/tests/test_tables.c",
+            "@@ -135,46 +135,46 @@",
+            " }",
+            " ",
+            " static void test_dump_value(FILE *out) {",
+            "   amqp_table_entry_t entries[8];",
+            "   amqp_table_t table;",
+            "   amqp_field_value_t val;",
+            " ",
+            "-  entries[0].key = amqp_cstring_bytes(\"zebra\");",
+            "+  entries[0].key = amqp_literal_bytes(\"zebra\");",
+            "   entries[0].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[0].value.value.bytes = amqp_cstring_bytes(\"last\");",
+            "+  entries[0].value.value.bytes = amqp_literal_bytes(\"last\");",
+            " ",
+            "-  entries[1].key = amqp_cstring_bytes(\"aardvark\");",
+            "+  entries[1].key = amqp_literal_bytes(\"aardvark\");",
+            "   entries[1].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[1].value.value.bytes = amqp_cstring_bytes(\"first\");",
+            "+  entries[1].value.value.bytes = amqp_literal_bytes(\"first\");",
+            " ",
+            "-  entries[2].key = amqp_cstring_bytes(\"middle\");",
+            "+  entries[2].key = amqp_literal_bytes(\"middle\");",
+            "   entries[2].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[2].value.value.bytes = amqp_cstring_bytes(\"third\");",
+            "+  entries[2].value.value.bytes = amqp_literal_bytes(\"third\");",
+            " ",
+            "-  entries[3].key = amqp_cstring_bytes(\"number\");",
+            "+  entries[3].key = amqp_literal_bytes(\"number\");",
+            "   entries[3].value.kind = AMQP_FIELD_KIND_I32;",
+            "   entries[3].value.value.i32 = 1234;",
+            " ",
+            "-  entries[4].key = amqp_cstring_bytes(\"decimal\");",
+            "+  entries[4].key = amqp_literal_bytes(\"decimal\");",
+            "   entries[4].value.kind = AMQP_FIELD_KIND_DECIMAL;",
+            "   entries[4].value.value.decimal.decimals = 2;",
+            "   entries[4].value.value.decimal.value = 1234;",
+            " ",
+            "-  entries[5].key = amqp_cstring_bytes(\"time\");",
+            "+  entries[5].key = amqp_literal_bytes(\"time\");",
+            "   entries[5].value.kind = AMQP_FIELD_KIND_TIMESTAMP;",
+            "   entries[5].value.value.u64 = 1234123412341234;",
+            " ",
+            "-  entries[6].key = amqp_cstring_bytes(\"beta\");",
+            "+  entries[6].key = amqp_literal_bytes(\"beta\");",
+            "   entries[6].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[6].value.value.bytes = amqp_cstring_bytes(\"second\");",
+            "+  entries[6].value.value.bytes = amqp_literal_bytes(\"second\");",
+            " ",
+            "-  entries[7].key = amqp_cstring_bytes(\"wombat\");",
+            "+  entries[7].key = amqp_literal_bytes(\"wombat\");",
+            "   entries[7].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[7].value.value.bytes = amqp_cstring_bytes(\"fourth\");",
+            "+  entries[7].value.value.bytes = amqp_literal_bytes(\"fourth\");",
+            " ",
+            "   table.num_entries = 8;",
+            "   table.entries = entries;",
+            " ",
+            "   qsort(table.entries, table.num_entries, sizeof(amqp_table_entry_t),",
+            "         &amqp_table_entry_cmp);",
+            " ",
+            "@@ -217,87 +217,87 @@",
+            " ",
+            "   amqp_field_value_t inner_values[2];",
+            "   amqp_array_t inner_array;",
+            " ",
+            "   amqp_table_entry_t entries[14];",
+            "   amqp_table_t table;",
+            " ",
+            "-  inner_entries[0].key = amqp_cstring_bytes(\"one\");",
+            "+  inner_entries[0].key = amqp_literal_bytes(\"one\");",
+            "   inner_entries[0].value.kind = AMQP_FIELD_KIND_I32;",
+            "   inner_entries[0].value.value.i32 = 54321;",
+            " ",
+            "-  inner_entries[1].key = amqp_cstring_bytes(\"two\");",
+            "+  inner_entries[1].key = amqp_literal_bytes(\"two\");",
+            "   inner_entries[1].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  inner_entries[1].value.value.bytes = amqp_cstring_bytes(\"A long string\");",
+            "+  inner_entries[1].value.value.bytes = amqp_literal_bytes(\"A long string\");",
+            " ",
+            "   inner_table.num_entries = 2;",
+            "   inner_table.entries = inner_entries;",
+            " ",
+            "   inner_values[0].kind = AMQP_FIELD_KIND_I32;",
+            "   inner_values[0].value.i32 = 54321;",
+            " ",
+            "   inner_values[1].kind = AMQP_FIELD_KIND_UTF8;",
+            "-  inner_values[1].value.bytes = amqp_cstring_bytes(\"A long string\");",
+            "+  inner_values[1].value.bytes = amqp_literal_bytes(\"A long string\");",
+            " ",
+            "   inner_array.num_entries = 2;",
+            "   inner_array.entries = inner_values;",
+            " ",
+            "-  entries[0].key = amqp_cstring_bytes(\"longstr\");",
+            "+  entries[0].key = amqp_literal_bytes(\"longstr\");",
+            "   entries[0].value.kind = AMQP_FIELD_KIND_UTF8;",
+            "-  entries[0].value.value.bytes = amqp_cstring_bytes(\"Here is a long string\");",
+            "+  entries[0].value.value.bytes = amqp_literal_bytes(\"Here is a long string\");",
+            " ",
+            "-  entries[1].key = amqp_cstring_bytes(\"signedint\");",
+            "+  entries[1].key = amqp_literal_bytes(\"signedint\");",
+            "   entries[1].value.kind = AMQP_FIELD_KIND_I32;",
+            "   entries[1].value.value.i32 = 12345;",
+            " ",
+            "-  entries[2].key = amqp_cstring_bytes(\"decimal\");",
+            "+  entries[2].key = amqp_literal_bytes(\"decimal\");",
+            "   entries[2].value.kind = AMQP_FIELD_KIND_DECIMAL;",
+            "   entries[2].value.value.decimal.decimals = 3;",
+            "   entries[2].value.value.decimal.value = 123456;",
+            " ",
+            "-  entries[3].key = amqp_cstring_bytes(\"timestamp\");",
+            "+  entries[3].key = amqp_literal_bytes(\"timestamp\");",
+            "   entries[3].value.kind = AMQP_FIELD_KIND_TIMESTAMP;",
+            "   entries[3].value.value.u64 = 109876543209876;",
+            " ",
+            "-  entries[4].key = amqp_cstring_bytes(\"table\");",
+            "+  entries[4].key = amqp_literal_bytes(\"table\");",
+            "   entries[4].value.kind = AMQP_FIELD_KIND_TABLE;",
+            "   entries[4].value.value.table = inner_table;",
+            " ",
+            "-  entries[5].key = amqp_cstring_bytes(\"byte\");",
+            "+  entries[5].key = amqp_literal_bytes(\"byte\");",
+            "   entries[5].value.kind = AMQP_FIELD_KIND_I8;",
+            "   entries[5].value.value.i8 = (int8_t)-1;",
+            " ",
+            "-  entries[6].key = amqp_cstring_bytes(\"long\");",
+            "+  entries[6].key = amqp_literal_bytes(\"long\");",
+            "   entries[6].value.kind = AMQP_FIELD_KIND_I64;",
+            "   entries[6].value.value.i64 = 1234567890;",
+            " ",
+            "-  entries[7].key = amqp_cstring_bytes(\"short\");",
+            "+  entries[7].key = amqp_literal_bytes(\"short\");",
+            "   entries[7].value.kind = AMQP_FIELD_KIND_I16;",
+            "   entries[7].value.value.i16 = 655;",
+            " ",
+            "-  entries[8].key = amqp_cstring_bytes(\"bool\");",
+            "+  entries[8].key = amqp_literal_bytes(\"bool\");",
+            "   entries[8].value.kind = AMQP_FIELD_KIND_BOOLEAN;",
+            "   entries[8].value.value.boolean = 1;",
+            " ",
+            "-  entries[9].key = amqp_cstring_bytes(\"binary\");",
+            "+  entries[9].key = amqp_literal_bytes(\"binary\");",
+            "   entries[9].value.kind = AMQP_FIELD_KIND_BYTES;",
+            "-  entries[9].value.value.bytes = amqp_cstring_bytes(\"a binary string\");",
+            "+  entries[9].value.value.bytes = amqp_literal_bytes(\"a binary string\");",
+            " ",
+            "-  entries[10].key = amqp_cstring_bytes(\"void\");",
+            "+  entries[10].key = amqp_literal_bytes(\"void\");",
+            "   entries[10].value.kind = AMQP_FIELD_KIND_VOID;",
+            " ",
+            "-  entries[11].key = amqp_cstring_bytes(\"array\");",
+            "+  entries[11].key = amqp_literal_bytes(\"array\");",
+            "   entries[11].value.kind = AMQP_FIELD_KIND_ARRAY;",
+            "   entries[11].value.value.array = inner_array;",
+            " ",
+            "-  entries[12].key = amqp_cstring_bytes(\"float\");",
+            "+  entries[12].key = amqp_literal_bytes(\"float\");",
+            "   entries[12].value.kind = AMQP_FIELD_KIND_F32;",
+            "   entries[12].value.value.f32 = (float)M_PI;",
+            " ",
+            "-  entries[13].key = amqp_cstring_bytes(\"double\");",
+            "+  entries[13].key = amqp_literal_bytes(\"double\");",
+            "   entries[13].value.kind = AMQP_FIELD_KIND_F64;",
+            "   entries[13].value.value.f64 = M_PI;",
+            " ",
+            "   table.num_entries = 14;",
+            "   table.entries = entries;",
+            " ",
+            "   fprintf(out, \"AAAAAAAAAA\\n\");"
+          ]
+        }
+      ]
+    }
+  }
+}

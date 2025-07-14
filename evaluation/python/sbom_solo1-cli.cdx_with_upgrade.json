@@ -1,0 +1,399 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:1b69f0d7-ebfd-487b-81d0-31847ef4b32c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-14T13:19:00-04:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.28.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f61dcf43a779f39f",
+      "type": "file",
+      "name": "solo1-cli-0.0.30/"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/flit@2.3.0?package-id=8bec5740f183e08a",
+      "type": "library",
+      "name": "flit",
+      "version": "2.3.0",
+      "cpe": "cpe:2.3:a:python-flit:python-flit:2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/flit@2.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:python_flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:python-flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:python_flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:python-flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:python_flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:flit:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dev-requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flit-core@2.3.0?package-id=f2a243b05ef680f4",
+      "type": "library",
+      "name": "flit-core",
+      "version": "2.3.0",
+      "cpe": "cpe:2.3:a:python-flit-core:python-flit-core:2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/flit-core@2.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit-core:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit_core:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit_core:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit-core:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit-core:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit_core:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit_core:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit-core:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit-core:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit_core:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit_core:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:python-flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:python_flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flit:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flit:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit-core:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit-core:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit_core:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit_core:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:flit-core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flit:flit_core:2.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dev-requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bb1a96da727ed996",
+      "type": "file",
+      "name": "/home/solo1-cli-0.0.30/dev-requirements.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cccbfdce8012d6f824f18c64f5ac13ed51205d2c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5f3b5b69d807474960a5fe4596b40d4a844b67416e10a2bb2eb071772ba0d8ba"
+        }
+      ]
+    }
+  ],
+  "upgrade": {
+    "file_changes": {
+      "old_version": "/home/solo1-cli-0.0.28",
+      "New file": [],
+      "Deleted file": [],
+      "Modified file": [
+        {
+          "file": "/home/solo1-cli-0.0.30/solo/cli/__init__.py",
+          "change": [
+            "--- /home/solo1-cli-0.0.28/solo/cli/__init__.py",
+            "+++ /home/solo1-cli-0.0.30/solo/cli/__init__.py",
+            "@@ -132,21 +132,28 @@",
+            " def ls(all):",
+            "     \"\"\"List Solos (in firmware or bootloader mode) and potential Solos in dfu mode.\"\"\"",
+            " ",
+            "     solos = solo.client.find_all()",
+            "     print(\":: Solos\")",
+            "     for c in solos:",
+            "         descriptor = c.dev.descriptor",
+            "-        if hasattr(descriptor, \"serial_number\") and descriptor.serial_number:",
+            "-            print(f\"{descriptor.serial_number}: {descriptor.product_string}\")",
+            "+",
+            "+        if hasattr(descriptor, \"product_name\"):",
+            "+            product_name = descriptor.product_name",
+            "+        elif c.is_solo_bootloader():",
+            "+            product_name = \"Solo Bootloader device\"",
+            "+        else:",
+            "+            product_name = \"FIDO2 device\"",
+            "+",
+            "+        if hasattr(descriptor, \"serial_number\"):",
+            "+            serial_or_path = descriptor.serial_number",
+            "         else:",
+            "-            if c.is_solo_bootloader():",
+            "-                print(f\"{descriptor.path}: Solo Bootloader device\")",
+            "-            else:",
+            "-                print(f\"{descriptor.path}: FIDO2 device\")",
+            "+            serial_or_path = descriptor.path",
+            "+",
+            "+        print(f\"{serial_or_path}: {product_name}\")",
+            " ",
+            "     if all:",
+            "         print(\":: Potential Solos in DFU mode\")",
+            "         try:",
+            "             st_dfus = solo.dfu.find_all()",
+            "             for d in st_dfus:",
+            "                 dev_raw = d.dev"
+          ]
+        },
+        {
+          "file": "/home/solo1-cli-0.0.30/solo/cli/program.py",
+          "change": [
+            "--- /home/solo1-cli-0.0.28/solo/cli/program.py",
+            "+++ /home/solo1-cli-0.0.30/solo/cli/program.py",
+            "@@ -241,19 +241,20 @@",
+            "     \"\"\"Switch from Solo bootloader to ST DFU bootloader.",
+            " ",
+            "     This changes the boot options of the key, which only reliably",
+            "     take effect after a powercycle.",
+            "     \"\"\"",
+            " ",
+            "     p = solo.client.find(serial)",
+            "-    p.enter_st_dfu()",
+            "-    # this doesn't really work yet ;)",
+            "-    # p.reboot()",
+            "-",
+            "-    print(\"Please powercycle the device (pull out, plug in again)\")",
+            "+    try:",
+            "+        p.enter_st_dfu()",
+            "+        print(\"Please powercycle the device (pull out, plug in again)\")",
+            "+    except Exception as e:",
+            "+        if \"wrong channel\" in str(e).lower():",
+            "+            print(\"Command wasn't accepted by Solo.  It must be in bootloader mode first and be a 'hacker' device.\")",
+            " ",
+            " ",
+            " aux.add_command(enter_dfu)",
+            " ",
+            " ",
+            " @click.command()",
+            " @click.option(\"-s\", \"--serial\", help=\"Serial number of Solo to use\")"
+          ]
+        },
+        {
+          "file": "/home/solo1-cli-0.0.30/solo/devices/solo_v1.py",
+          "change": [
+            "--- /home/solo1-cli-0.0.28/solo/devices/solo_v1.py",
+            "+++ /home/solo1-cli-0.0.30/solo/devices/solo_v1.py",
+            "@@ -1,13 +1,14 @@",
+            " import base64",
+            " import json",
+            " import struct",
+            " import sys",
+            " import tempfile",
+            " import time",
+            "+from threading import Event",
+            " ",
+            " from fido2.client import Fido2Client",
+            " from fido2.ctap import CtapError",
+            " from fido2.ctap1 import CTAP1",
+            " from fido2.ctap2 import CTAP2",
+            " from fido2.hid import CTAPHID, CtapHidDevice",
+            " from intelhex import IntelHex",
+            "@@ -101,15 +102,21 @@",
+            "         self,",
+            "     ):",
+            "         self.exchange = self.exchange_hid",
+            " ",
+            "     def send_only_hid(self, cmd, data):",
+            "         if not isinstance(data, bytes):",
+            "             data = struct.pack(\"%dB\" % len(data), *[ord(x) for x in data])",
+            "-        self.dev._dev.InternalSend(0x80 | cmd, bytearray(data))",
+            "+",
+            "+        no_reply = Event()",
+            "+        no_reply.set()",
+            "+        try:",
+            "+            self.dev.call(0x80 | cmd, bytearray(data), no_reply)",
+            "+        except IOError:",
+            "+            pass",
+            " ",
+            "     def exchange_hid(self, cmd, addr=0, data=b\"A\" * 16):",
+            "         req = Client.format_request(cmd, addr, data)",
+            " ",
+            "         data = self.send_data_hid(SoloBootloader.CommandBoot, req)",
+            " ",
+            "         ret = data[0]"
+          ]
+        }
+      ]
+    }
+  }
+}

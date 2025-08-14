@@ -1,0 +1,29 @@
+Prerequisites
+Python 3.6+: Ensure you have Python installed.
+
+Syft: You must have the syft tool installed. If you don't, you can install it easily:
+
+pip install syft-bin
+
+
+-----------------------------------------------------------------------------------------------
+
+Syntax:
+
+python generate_upgraded_sbom.py filename  cdx  version_upgrade.txt 
+
+python  generate_upgraded_sbom.py Dockerfile cdx version_upgrade.txt 
+
+
+
+Output:
+
+base_sbom.json   --> SBOM generated for file (ex: Docker file in the above script)
+
+sbom_with_upgrade.json   --> SBOM concatenated with contents of version_upgrade.txt 
+
+
+
+
+
+

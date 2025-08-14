@@ -1,0 +1,64 @@
+--- base_sbom.json
++++ sbom_with_upgrade.json
+├── Pretty-printed
+│┄ Similarity: 0.7730654761904762%
+│┄ Differences: {"'metadata'": "{'timestamp': '2025-06-30T17:52:24-04:00', 'tools': {'components': {0: {'version': "
+│┄                "'1.27.1'}}}}",
+│┄  "'serialNumber'": "'urn:uuid:c58cab78-c468-4d34-92fc-b4164fe3ca32'",
+│┄  "'upgrade'": "OrderedDict([('summary', 'Recommended upgrades to resolve critical "
+│┄               "vulnerabilities.'), ('generatedAt', '2025-06-22T00:05:28Z'), ('packagesToUpgrade', "
+│┄               "[OrderedDict([('packageName', 'requests'), ('purl', 'pkg:pypi/requests@2.25.1'), "
+│┄               "('currentVers […]
+│ @@ -4,23 +4,49 @@
+│      "metadata": {
+│          "component": {
+│              "bom-ref": "d4dcab3d116f68f3",
+│              "name": "Dockerfile",
+│              "type": "file",
+│              "version": "sha256:b2f2b5fcbb82d736b09a715c12da227939f508d2934ab26a0e7e57537e6760f2"
+│          },
+│ -        "timestamp": "2025-06-21T21:24:47-04:00",
+│ +        "timestamp": "2025-06-30T17:52:24-04:00",
+│          "tools": {
+│              "components": [
+│                  {
+│                      "author": "anchore",
+│                      "name": "syft",
+│                      "type": "application",
+│ -                    "version": "1.14.0"
+│ +                    "version": "1.27.1"
+│                  }
+│              ]
+│          }
+│      },
+│ -    "serialNumber": "urn:uuid:0a9c130a-d79d-48ef-8c91-43b91de0f1a5",
+│ +    "serialNumber": "urn:uuid:c58cab78-c468-4d34-92fc-b4164fe3ca32",
+│      "specVersion": "1.6",
+│ +    "upgrade": {
+│ +        "generatedAt": "2025-06-22T00:05:28Z",
+│ +        "packagesToUpgrade": [
+│ +            {
+│ +                "currentVersion": "2.25.1",
+│ +                "packageName": "requests",
+│ +                "purl": "pkg:pypi/requests@2.25.1",
+│ +                "reason": "Resolves CVE-2023-32681 (High Severity)",
+│ +                "upgradeTarget": "2.28.1",
+│ +                "vulnerabilitiesFixed": [
+│ +                    "CVE-2023-32681"
+│ +                ]
+│ +            },
+│ +            {
+│ +                "currentVersion": "1.26.5",
+│ +                "packageName": "urllib3",
+│ +                "purl": "pkg:pypi/urllib3@1.26.5",
+│ +                "reason": "Resolves GHSA-v845-jxx5-vc9f",
+│ +                "upgradeTarget": "1.26.16",
+│ +                "vulnerabilitiesFixed": [
+│ +                    "GHSA-v845-jxx5-vc9f"
+│ +                ]
+│ +            }
+│ +        ],
+│ +        "summary": "Recommended upgrades to resolve critical vulnerabilities."
+│ +    },
+│      "version": 1
+│  }

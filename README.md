@@ -1,18 +1,37 @@
-# DiffSBOM
+# DiffSBOM Automation Script
 
-**DiffSBOM** is a lightweight Python-based tool that enhances standard Software Bill of Materials (SBOM) by embedding structured source-level upgrade information. It helps developers, auditors, and security teams trace software evolution by capturing file-level and line-level changes in source code across versions.
+This script automates **SBOM (Software Bill of Materials)** generation and diff analysis between two versions of a project, supporting **Syft** and **Trivy** as SBOM generation tools.  
+It can run in two modes:
+- `diff` mode: Automatically detect file changes between two versions and merge them into a new SBOM.
+- `user` mode: Use a user-provided `version_upgrade.txt` JSON file describing changes.
 
-The tool compares two versions of a project—either as source files or directories—and outputs an SPDX or CycloneDX SBOM with an additional `upgrade` section. This section classifies files into `New file`, `Deleted file`, and `Modified file`, and attaches `diffoscope` output for each modified source file to improve traceability and review.
+---
+
+## Features
+- Supports **two SBOM formats**:  
+  - `spdx` (SPDX JSON format)  
+  - `cdx` (CycloneDX JSON format)
+- Supports **two tools** for SBOM generation:  
+  - [Syft](https://github.com/anchore/syft)  
+  - [Trivy](https://github.com/aquasecurity/trivy)  
+- Automatically installs the chosen SBOM tool if not present.  
+- Delegates actual diff logic to [`DiffSBOM.py`](./DiffSBOM.py), which performs detailed analysis using `diffoscope` for modified files.
+
+---
+
+## Requirements
+The following tools are required depending on the mode and tool selection:
+- **Bash** (Unix/Linux/Mac environment)
+- **Python 3** (for `DiffSBOM.py`)
+- **curl** (for installing `syft` or `trivy`)
+- **diffoscope** (for detailed file diff in `DiffSBOM.py`)
 
 ---
 
 ## Usage
 
-DiffSBOM supports two modes: `diff` (automated comparison) and `user` (manual input).
-
-### `diff` and `user` Modes
-
 ```bash
-python3 DiffSBOM.py <mode> <cdx|spdx> <old_path> <new_path>
+./gensbomwithdiff.sh <mode> <sbom_format> <old_project_path> <new_project_path> <tool>
+
 
 
